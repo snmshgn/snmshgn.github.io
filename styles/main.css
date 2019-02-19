@@ -1,4 +1,23 @@
+/* Layout */
+
+.header-container {
+  display: grid;
+  grid-template-columns: auto, auto, auto, auto, auto;
+  grid-template-rows: auto, auto, auto, auto, auto;
+}
+
+h1 {
+  grid-column-end: 5;
+}
+
+/* Images */
+
+h1 {
+  background-image: url(/image/desktop/header_designbychange.png)
+}
+
 /* Typography */
+
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -7,7 +26,7 @@ h1, h2 {
 }
 
 h1 {
-
+  font-size: 361px;
 }
 
 h2 {
