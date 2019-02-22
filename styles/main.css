@@ -12,6 +12,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  background-color: #F8F8F8;
+  border-radius: 50px;
+  height: 50px;
+}
+
 ul {
   list-style: none;
 }
@@ -40,7 +46,7 @@ h3 {
   text-transform: uppercase;
 }
 
-p, ul {
+img, p, ul {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 100;
   letter-spacing: 0.05em;
@@ -86,6 +92,57 @@ p, ul {
     text-align: right;
     transform: rotate(-30deg);
     width: 220px;
+  }
+
+  /* Images */
+
+  img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .img1 {
+    content: url(../images/mobile/isometric-mobile.png);
+  }
+
+  .imgsurveys1 {
+    content: url(../images/mobile/usersurveys_1.png);
+  }
+
+  .persona1 {
+    content: url(../images/mobile/Persona1.png);
+  }
+
+  .persona2 {
+    content: url(../images/mobile/Persona2.png);
+  }
+
+  .userflow {
+    content: url(../images/mobile/userflow.png);
+  }
+
+  .sitemap {
+    content: url(../images/mobile/sitemap.png);
+  }
+
+  .imgsurveys2 {
+    content: url(../images/mobile/usersurveys_2.png);
+  }
+
+  .wireframes-pt1 {
+    content: url(../images/mobile/wireframing_1.png);
+  }
+
+  .wireframes-pt2 {
+    content: url(../images/mobile/wireframing_2.png);
+  }
+
+  .imgcolors {
+    content: url(../images/mobile/colors.png);
+  }
+
+  .styleguide {
+    content: url(../images/mobile/styleguide.png);
   }
 
   /* Typography */
@@ -166,30 +223,244 @@ p, ul {
 
     /* Case Study */
 
+  .casestudyheader-container {
+    display: grid;
+    grid-template-columns: 100px auto auto auto 100px;
+    justify-content: center;
+  }
+
   .content-container {
     display: grid;
     /* 9 */grid-template-columns: 100px 100px 200px 200px auto 200px 200px 100px 100px;
+    /* 32 */grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto 100px;
   }
 
   article {
     width: 600px;
   }
 
-  .center {
+  .overview {
+    grid-column: 3 / 6;
+    grid-row: 1;
+  }
+
+  .problem {
+    grid-column: 4 / 7;
+    grid-row: 2;
+  }
+
+  .solution {
+    grid-column: 3 / 6;
+    grid-row: 3;
+  }
+
+  .button {
     align-items: center;
     grid-column: 5;
+    grid-row: 4;
   }
 
-  .left {
+  .img1 {
+    grid-column: 2 / 8;
+    grid-row: 5;
+  }
+
+  .brief {
     grid-column: 3 / 6;
+    grid-row: 6;
   }
 
-  .right {
+  .surveys-pt1 {
     grid-column: 4 / 7;
+    grid-row: 7;
+  }
+
+  .imgsurveys1 {
+    grid-column: 2 / 8;
+    grid-row: 8;
+  }
+
+  .surveys-pt2 {
+    grid-column: 3 / 6;
+    grid-row: 9;
+  }
+
+  .com-analysis {
+    grid-column: 4 / 7;
+    grid-row: 10;
+  }
+
+  .personas, .persona1, .persona2 {
+    grid-row: 11;
+  }
+
+  .personas {
+    align-items: center;
+    grid-column: 4 / 6;
+    width: 475px;
+  }
+
+  .persona1 {
+    grid-column: 2 / 3;
+  }
+
+  .persona2 {
+    grid-column: 7 / 8;
+  }
+
+  .stories {
+    grid-column: 3 / 6;
+    grid-row: 12;
+  }
+
+  .userflow {
+    grid-column: 2 / 8;
+    grid-row: 13;
+  }
+
+  .flows {
+    grid-column: 3 / 6;
+    grid-row: 14;
+  }
+
+  .sitemap {
+    grid-column: 2 / 8;
+    grid-row: 15;
+  }
+
+  .wireframes1 {
+    grid-column: 4 / 7;
+    grid-row: 16;
+  }
+
+  .wireframes-pt1 {
+    grid-column: 2 / 8;
+    grid-row: 17;
+  }
+
+  .surveys-rd2 {
+    grid-column: 3 / 6;
+    grid-row: 18;
+  }
+
+  .imgsurveys2 {
+    grid-column: 2 / 8;
+    grid-row: 19;
+  }
+
+  .comp-analysis2 {
+    grid-column: 4 / 7;
+    grid-row: 20;
+  }
+
+  .wireframes2 {
+    grid-column: 3 / 6;
+    grid-row: 21;
+  }
+
+  .wireframes-pt2 {
+    grid-column: 2 / 8;
+    grid-row: 22;
+  }
+
+  .prototyping {
+    grid-column: 4 / 7;
+    grid-row: 23;
+  }
+
+  .branding {
+    grid-column: 3 / 6;
+    grid-row: 24;
+  }
+
+  .colors {
+    grid-column: 4 / 7;
+    grid-row: 25;
+  }
+
+  .imgcolors {
+    grid-column: 2 / 8;
+    grid-row: 26;
+  }
+
+  .colorspt2 {
+    grid-column: 4 / 7;
+    grid-row: 27;
+  }
+
+  .typography {
+    grid-column: 3 / 6;
+    grid-row: 28;
+  }
+
+  .styleguide {
+    grid-column: 2 / 8;
+    grid-row: 29;
+  }
+
+  .logo {
+    grid-column: 4 / 7;
+    grid-row: 30
+  }
+
+  .hifimockups {
+    grid-column: 3 / 6;
+    grid-row: 31;
+  }
+
+  .conclusion {
+    grid-column: 4 / 7;
+    grid-row: 32;
   }
 
   .right > h3 {
     text-align: right;
+  }
+
+  /* Images */
+
+  .img1 {
+    content: url(../images/desktop/isometric-mobile.png);
+  }
+
+  .imgsurveys1 {
+    content: url(../images/desktop/usersurveys_1.png);
+  }
+
+  .persona1 {
+    content: url(../images/desktop/Persona1.png);
+  }
+
+  .persona2 {
+    content: url(../images/desktop/Persona2.png);
+  }
+
+  .userflow {
+    content: url(../images/desktop/userflow.png);
+  }
+
+  .sitemap {
+    content: url(../images/desktop/sitemap.png);
+  }
+
+  .imgsurveys2 {
+    content: url(../images/desktop/usersurveys_2.png);
+  }
+
+  .wireframes-pt1 {
+    content: url(../images/desktop/wireframing_1.png);
+  }
+
+  .wireframes-pt2 {
+    content: url(../images/desktop/wireframing_2.png);
+  }
+
+  .imgcolors {
+    content: url(../images/desktop/colors.png);
+  }
+
+  .styleguide {
+    content: url(../images/desktop/styleguide.png);
   }
 
   /* Typography */
