@@ -3,27 +3,32 @@
   <head>
     <title>Case Study | ESSE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/casestudy.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900|Playfair+Display:900|Source+Sans+Pro:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <header class="casestudyheader-container">
+    <header class="casestudyheader-container main">
+      <img class="headerimg" alt="Microphone">
       <h2>ESSE</h2>
     </header>
     <nav class="sidebar-opacity">
-      <h2>MENU</h2>
-      <ul id="menu">
-        <li><h3><a href="/index.html">Home</a></h3></li>
-        <li><h3><a href="/about.html">About</a></h3></li>
-        <li><h3><!--Scrolls to projects Projects-->Projects</h3></li>
-        <li><h3><a href="mailto:snmshgn@aol.com">Contact</a></h3></li>
-      </ul>
-      <button class="backtotop" type="button">Back to top</button>
+      <div class="menu-button" style="font-size:30px;cursor:pointer" onclick="openNav()"><svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.125 12.5L33.875 12.5V10.5L0.125 10.5L0.125 12.5V12.5ZM0.125 7.5L33.875 7.5V5.5L0.125 5.5L0.125 7.5V7.5ZM0.125 0.5L0.125 2.5L33.875 2.5V0.5L0.125 0.5V0.5Z" fill="#141301"/></svg><p>MENU</p></div>
+      <aside id="menu">
+        <h2>MENU</h2>
+        <ul>
+          <li><h3><a href="/index.html">Home</a></h3></li>
+          <li><h3><a href="/about.html">About</a></h3></li>
+          <li><h3><!--Scrolls to projects Projects-->Projects</h3></li>
+          <li><h3><a href="mailto:snmshgn@aol.com">Contact</a></h3></li>
+        </ul>
+      </aside>
     </nav>
+    <button class="backtotop main" type="button"><svg width="41" height="11" viewBox="0 0 41 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 10.5L20.5 0.5L40.5 10.5H26H15H0.5Z" fill="#FF5953"/></svg>Back to<br>top</button>
     <!-- Not sure how to write the back to top icon and button. Should that be placed in from the JS? -->
-    <section class="content-container">
+    <section class="content-container main">
       <article class = "left overview">
         <h3>Overview</h3>
         <p>A client came to us with an idea for a cloud storage application and we designed one for musicians in an effort to alleviate the stress points of long distance collaboration. Our role was to create a brand, design a product and test it with users.</p>
@@ -37,20 +42,20 @@
         <h3>Solution</h3>
         <p>Our solution was a collaboration app for music engineers. Our research showed stress points in long distance work between different kinds of creators and a need for an online control center for their tracks. We created a style guide, as shown at the beginning of this paper, deliverables such as font styling for branding and descriptive text, hi fidelity mockups of screen views, images and icons.</p>
       </article>
-      <article class = "center button">
+      <article class = "center prototype-button">
         <button type="button">View Prototype</button>
       </article>
       <img class="img1" alt="Mobile App Examples">
       <article class = "left brief">
         <h3>Client Brief</h3>
-        <ul>
+        <ul class="primary-ul">
           <li>A cloud-based storage app.</li>
           <li>Saving content you find on the web. (links, images, videos, etc.)</li>
           <li>Organizing content using thinks like folders, tags, categories, and/or groups.</li>
           <li>Creating content. (notes, documents, maybe spreadsheets?)</li>
           <li>Uploading files from a computer or mobile device.</li>
           <li>Collaboration features that allow:
-            <ul>
+            <ul class="secondary-ul">
               <li>Sharing a single item with someone else.</li>
               <li>Sharing a group or folder with someone else.</li>
               <li>Connecting with other users for real time collaboration in notes or documents.</li>
@@ -63,7 +68,7 @@
       <article class = "right surveys-pt1 p-right">
         <h3>Surveys</h3>
         <p>To get a better idea of how potential users might respond to the client’s proposed features, we launched a survey using Google Forms. <a href="https://goo.gl/forms/DIlWaAxLNWvOS5S23">[The Survey]</a> We wanted to learn more on these main points:
-          <ul>
+          <ul class="primary-ul">
             <li>How many people actually use cloud storage.</li>
             <li>What do they use it for.</li>
             <li>What services do they already use.</li>
@@ -75,7 +80,7 @@
       <img class="imgsurveys1" alt="Survey Example"> <!-- Image content needs to be created and added later, probably through CSS -->
       <article class = "left surveys-pt2">
         <p>Using social media, personal networks and the slack platform, we distributed the survey and got the following results:
-          <ul>
+          <ul class="primary-ul">
             <li>Most survey takers use more than one cloud service due to different specialties of those products. (i.e. Pinterest for imagery, GoogleDrive for documents, etc.)</li>
             <li>Users were most likely to create an account for personal use and/or work related activities.</li>
             <li>95% of survey takers were interested in a file sharing feature, 90% in file uploading, and 65% in real time collaboration.</li>
@@ -159,7 +164,7 @@
         <h3>Hi Fidelity Mockups & Prototype Testing</h3>
         <p>Using the branding and color scheme, we proceeded to the hi fidelity mockups and testing. We created designs for both desktop and mobile, testing both until our results came back with more intuitive navigation by users.</p>
         <p>What we learned from our rounds of testing were this:
-          <ul>
+          <ul class="primary-ul">
             <li>Users needed more color cues in their navigational direction.</li>
             <li>Where the desktop app was more understandable and wordy, the mobile app provided some limitations in what users could do, which in turn limited the translation of the design to mobile, as well as redesigned the action buttons into icons on a taskbar at the bottom of the screen.</li>
           </ul>
@@ -174,13 +179,5 @@
         <p>The lessons learned in this project will carry with us through future designs, reminding us the importance of initial research and informal information for concept ideas.</p>
       </article>
     </section>
-    <footer>
-      <ul>
-        <li><a href="https://github.com/snmshgn"><i class="fab fa-github-square"></i></a></li>
-        <li><a href="www.linkedin.com/in/sona-moushigian"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/ObscurraArt"><i class="fab fa-twitter-square"></i></a></li>
-        <li><a href="mailto:snmshgn@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
-      </ul>
-    </footer>
   </body>
 </html>
