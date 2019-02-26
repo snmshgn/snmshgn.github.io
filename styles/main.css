@@ -244,12 +244,20 @@ img, p, ul {
   }
 
   #menu {
+    background-color: white;
     height: 100%;
     padding: 100px;
     overflow-x: hidden;
+    padding: 100px;
     position: fixed;
+    top: 0;
     visibility: hidden;
     width: 0;
+  }
+
+  #menu > ul {
+    top: 50%;
+    
   }
 
   .menu-button {
