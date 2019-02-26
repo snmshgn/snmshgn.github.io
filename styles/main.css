@@ -202,7 +202,7 @@ img, p, ul {
   .main-container {
     display: grid;
     grid-template-columns: 100px auto 100px;
-    grid-template-rows: 824px 100px 824px;
+    grid-template-rows: 824px 100px 100px 824px;
   }
 
   .intro-container {
@@ -213,7 +213,8 @@ img, p, ul {
   }
 
   .projects-container {
-    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    grid-row: 3;
   }
 
   .intro-container {
@@ -222,11 +223,13 @@ img, p, ul {
     grid-template-rows: 50px 50px 50px 50px;
     justify-content: center;
     transform: rotate(-30deg);
+    width: 400px;
   }
 
   .intro-container {
     position: relative;
     top: 450px;
+    left: 50%;
   }
 
   .hello {
@@ -251,17 +254,89 @@ img, p, ul {
   }
 
   .featured-project, .secondary-project, .tertiary-project {
+    grid-column: 1 / 8;
     grid-row: 1 / 9;
   }
 
-  .first-project-img {
-    grid-column: 2 / 6;
+  .featured-project, .secondary-project, .tertiary-project {
+    display: grid;
+    grid-template-columns: 200px 200px auto 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  }
+
+  .first-project-img, .second-project-img, .third-project-img {
+    grid-column: 1 / 6;
+  }
+
+  .featured-project > h2, .casestudy-description, .casestudy-button {
+    align-content: center;
+    grid-column: 3;
+    position: relative;
+    top: -40px;
   }
 
   .featured-project > h2 {
-    grid-column: 5 / 6;
     grid-row: 4 / 5;
     justify-content: center;
+  }
+
+  .featured-project > .casestudy-description {
+    grid-row: 6 / 7;
+    position: relative;
+    top: -50px;
+    width: 359px;
+  }
+
+  .featured-project > .casestudy-button {
+    grid-row: 7 / 8;
+  }
+
+  .secondary-project > h2, .casestudy-description, .casestudy-button {
+    align-content: center;
+    grid-column: 3;
+    position: relative;
+    top: -40px;
+  }
+
+  .secondary-project > h2 {
+    grid-column: 2 / 5;
+    grid-row: 4 / 5;
+    justify-content: center;
+  }
+
+  .secondary-project > .casestudy-description {
+    grid-row: 6 / 7;
+    position: relative;
+    top: -50px;
+    width: 359px;
+  }
+
+  .secondary-project > .casestudy-button {
+    grid-row: 7 / 8;
+  }
+
+  .tertiary-project > h2, .casestudy-description, .casestudy-button {
+    align-content: center;
+    grid-column: 3;
+    position: relative;
+    top: -40px;
+  }
+
+  .tertiary-project > h2 {
+    grid-column: 2 / 5;
+    grid-row: 4 / 5;
+    justify-content: center;
+  }
+
+  .tertiary-project > .casestudy-description {
+    grid-row: 6 / 7;
+    position: relative;
+    top: -50px;
+    width: 359px;
+  }
+
+  .tertiary-project > .casestudy-button {
+    grid-row: 7 / 8;
   }
 
   .backtotop {
