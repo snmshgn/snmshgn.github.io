@@ -257,7 +257,6 @@ img, p, ul {
 
   #menu > ul {
     top: 50%;
-    
   }
 
   .menu-button {
@@ -266,6 +265,7 @@ img, p, ul {
     grid-template-rows: 16px 16px;
     justify-content: center;
     transform: rotate(-90deg);
+    z-index: 2;
   }
 
   .menu-button > svg {
@@ -289,7 +289,7 @@ img, p, ul {
   }
 
   nav > h2 {
-    font-size: 150px;
+    font-size: 400px;
   }
 
   h3 {

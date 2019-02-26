@@ -1,6 +1,7 @@
 function openNav() {
-  document.getElementById("menu").style.width = "720px";
+  document.getElementById("menu").style.width = "644px";
   document.getElementById("menu").style.visibility = "visible";
+  document.getElementById("menu-button").style.left = "-644px";
 }
 
 function closeNav() {
