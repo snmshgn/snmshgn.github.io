@@ -226,12 +226,19 @@ img, p, ul {
     top: 60%;
   }
 
+  #backtotop {
+    opacity: 0;
+    visibility: hidden;
+  }
+
     /* Menu */
 
   .sidebar-opacity {
     height: 100%;
     position: fixed;
     overflow-x: hidden;
+    top: 50%;
+    margin-top: -50px;
     width: 100px;
     z-index: 1;
   }
@@ -247,6 +254,7 @@ img, p, ul {
 
   .menu-button {
     display: grid;
+    align-items: center;
     grid-template-rows: 16px 16px;
     justify-content: center;
     transform: rotate(-90deg);
