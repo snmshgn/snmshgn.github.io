@@ -382,12 +382,7 @@
     align-items: center;
     grid-column: 5;
     grid-row: 11;
-    margin: auto auto;
-  }
-
-  .personas > p, h3 {
-    align-items: center;
-    width: 475px;
+    margin: auto;
   }
 
   .persona1 {
