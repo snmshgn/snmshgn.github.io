@@ -7,9 +7,10 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900|Playfair+Display:900|Source+Sans+Pro:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   </head>
   <body>
-    <header class="header-container main">
+    <header class="header-container">
       <h1>DES<br class ="hidden-break"/>IGN</h1>
     </header>
     <nav class="sidebar-opacity">
@@ -26,24 +27,24 @@
       </aside>
     </nav>
     <main class="main-container">
-      <section class="intro-container main">
+      <section class="intro-container">
         <h3 class="hello">HE<br/>LLO.</h3>
         <p class="description">My name is Sona Moushigian, a web designer based in the United States. I love to blend design and graphics to create an attractive, intuitive design.</p>
       </section>
-      <section class="projects-container main">
-        <article class="featured-project">
+      <section class="projects-container main-carousel" data-flickity='{ "draggable": false, "wrapAround": true }'>
+        <article class="featured-project carousel-cell">
           <img class="first-project-img">
           <h2>Esse</h2>
           <p class="casestudy-description">Esse is a cloud based collaboration app for musicians and musical engineers.</p>
           <button class="casestudy-button" type="button">View Case Study</button>
         </article>
-        <article class="secondary-project">
+        <article class="secondary-project carousel-cell">
           <img class="second-project-img">
           <h2>Bloc<br class ="hidden-break"/>Jams</h2>
           <p class="casestudy-description">Description goes here.</p>
           <button class="casestudy-button" type="button">View Case Study</button>
         </article>
-        <article class="tertiary-project">
+        <article class="tertiary-project carousel-cell">
           <img class="third-project-img">
           <h2>Project 3</h2>
           <p class="casestudy-description">Description goes here.</p>
@@ -51,7 +52,7 @@
         </article>
       </section>
     </main>
-    <footer class="main">
+    <footer>
       <ul>
         <li><a href="https://github.com/snmshgn"><i class="fab fa-github-square"></i></a></li>
         <li><a href="www.linkedin.com/in/sona-moushigian"><i class="fab fa-linkedin"></i></a></li>
@@ -60,5 +61,6 @@
       </ul>
     </footer>
     <script src="scripts/sidebar.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
