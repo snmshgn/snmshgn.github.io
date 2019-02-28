@@ -87,13 +87,6 @@ img, p, ul {
   left: 100px;
 }
 
-.flickity-viewport {
-  overflow: disabled;
-}
-
-.flickity-slide {
-  transform: none;
-}
 
 .carousel-cell {
   width: 100%; /* full width */
@@ -585,6 +578,12 @@ img, p, ul {
 
   .second-project-img {
     content: url(../images/desktop/cassette.png);
+  }
+
+  /* Carousel */
+
+  .flickity-enabled {
+    width: 1240px;
   }
 
 }
