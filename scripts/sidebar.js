@@ -11,7 +11,7 @@ function openNav() {
 
   var x = window.matchMedia("(max-width: 375px)")
   myFunction(x)
-  x.addEventListener(myFunction)
+  x.addListener(myFunction)
 }
 
 function closeNav() {
@@ -27,5 +27,5 @@ function closeNav() {
 
   var x = window.matchMedia("(max-width: 375px)")
   myFunction(x)
-  x.addEventListener(myFunction)
+  x.addListener(myFunction)
 }
