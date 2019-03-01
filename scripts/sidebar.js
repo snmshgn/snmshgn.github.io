@@ -2,9 +2,11 @@ function openNav() {
   function myFunction(x) {
     if (x.matches) {
       document.getElementById("menu").style.height = "580px";
+      document.getElementById("menu").style.width = "100%";
       document.getElementById("menu").style.visibility = "visible";
     } else {
       document.getElementById("menu").style.width = "644px";
+      document.getElementById("menu").style.height = "100%";
       document.getElementById("menu").style.visibility = "visible";
     }
   }
