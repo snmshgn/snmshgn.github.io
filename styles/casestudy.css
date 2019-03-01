@@ -300,7 +300,7 @@
   }
 
   article > h3 {
-    width: 800px;
+    width: auto;
   }
 
   article.right > h3 {
@@ -379,9 +379,16 @@
   }
 
   .personas {
-    align-items: center;
     grid-column: 5;
     grid-row: 11;
+    margin: auto;
+  }
+
+  .personas > h3 {
+    margin: auto;
+  }
+
+  .personas > p {
     margin: auto;
   }
 

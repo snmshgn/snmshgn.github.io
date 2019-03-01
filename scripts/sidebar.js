@@ -1,11 +1,18 @@
 function openNav() {
-  document.getElementById("menu").style.width = "644px";
-  document.getElementById("menu").style.visibility = "visible";
-  document.body.style.backgroundColor = "rgba(255, 89, 83, 0.8)";
+  if (window.matchMedia("(max-width: 760px)").matches) {
+    document.getElementById("menu").style.height = "580px";
+    document.getElementById("menu").style.visibility = "visible";
+  } else {
+    document.getElementById("menu").style.width = "644px";
+    document.getElementById("menu").style.visibility = "visible";
+  }
 }
-
 function closeNav() {
-  document.getElementById("menu").style.width = "0";
-  document.getElementById("menu").style.visibility = "hidden";
-  document.body.style.backgroundColor = "white";
+  if (window.matchMedia("(max-width: 760px)").matches) {
+    document.getElementById("menu").style.height = "0";
+    document.getElementById("menu").style.visibility = "hidden";
+  } else {
+    document.getElementById("menu").style.width = "0";
+    document.getElementById("menu").style.visibility = "hidden";
+  }
 }
