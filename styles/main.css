@@ -222,7 +222,7 @@ img, p, ul {
     top: 14px;
   }
 
-  .svg-name-highlight, .svg-job-hightlight, .svg-adjective-highlight {
+  .svg-name-highlight, .svg-job-highlight, .svg-adjective-highlight {
     display: none;
   }
 
