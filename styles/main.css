@@ -7,7 +7,11 @@ a, .hello {
 }
 
 h2 {
-  color: #FF5953
+  color: #FF5953;
+}
+
+footer > ul > li > a {
+  color: #FFFFFF;
 }
 
   /* Styling */
@@ -33,7 +37,6 @@ ul {
 }
 
 footer {
-  text-align: right;
   width: 100%;
 }
 
@@ -54,7 +57,7 @@ footer > ul > li{
 
   /* Typography */
 
-button, .menu-button {
+button, .menu-button-p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -87,7 +90,7 @@ img, p, ul {
   line-height: normal;
 }
 
-.menu-button {
+.menu-button-p {
   font-size: 9px;
 }
 
@@ -226,6 +229,36 @@ img, p, ul {
     display: none;
   }
 
+  footer {
+    display: inline-grid;
+    grid-template-columns: 16px auto auto auto 16px;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 360px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .svg-footer {
+    display: none;
+  }
+
+  .svg-footer-mobile {
+    grid-column: 1 / 6;
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+  }
+
+  footer > ul {
+    grid-column: 2 / 5;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+  }
+
   /* Menu */
 
   .sidebar-opacity {
@@ -285,6 +318,7 @@ img, p, ul {
     grid-column: 2;
     grid-row-start: 3;
     grid-template-rows: 16px 16px;
+    grid-gap: 2px;
     margin: auto auto;
     z-index: 0;
   }
@@ -295,7 +329,6 @@ img, p, ul {
   }
 
   .menu-button > p {
-    font-size: 13px;
     grid-row: 2;
     margin: auto;
   }
@@ -589,6 +622,38 @@ img, p, ul {
     right: 20px;
   }
 
+  footer {
+    display: inline-grid;
+    grid-template-columns: 16px auto auto auto 16px;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 400px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .svg-footer {
+    display: block;
+    grid-column: 1 / 6;
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+  }
+
+  .svg-footer-mobile {
+    display: none;
+  }
+
+  footer > ul {
+    grid-column: 2 / 5;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+    left: 230px;
+    text-align: center;
+  }
+
   /* Menu */
 
   .sidebar-opacity {
@@ -658,8 +723,7 @@ img, p, ul {
   }
 
   .menu-button > p {
-    font-size: 13px;
-    grid-row: 3;
+    grid-row: 2;
     margin: auto;
   }
 
@@ -835,10 +899,6 @@ img, p, ul {
     font-size: 20px;
   }
 
-  .menu-button {
-    font-size: 9px;
-  }
-
   /* Images */
 
   img {
@@ -935,7 +995,7 @@ img, p, ul {
   .hello {
     grid-column: 7;
     grid-row-start: 2;
-    margin: 0px;
+    margin: 20px 0px;
     transform: rotate(90deg);
     width: auto;
   }
@@ -943,6 +1003,7 @@ img, p, ul {
   .description {
     grid-column-start: 1;
     grid-row-start: 2;
+    margin: 0px -20px;
     text-align: right;
     width: 245px;
   }
@@ -989,6 +1050,37 @@ img, p, ul {
     bottom: 4px;
     right: 40px;
   }
+
+  footer {
+    display: inline-grid;
+    grid-template-columns: 16px auto auto auto 16px;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 360px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .svg-footer {
+    display: block;
+    grid-column: 1 / 6;
+    position: relative;
+    bottom: -30px;
+    width: 100%;
+  }
+
+  .svg-footer-mobile {
+    display: none;
+  }
+
+  footer > ul {
+    grid-column: 2 / 5;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+  }z
 
   /* Menu */
 
@@ -1054,7 +1146,6 @@ img, p, ul {
   }
 
   .menu-button > p {
-    font-size: 13px;
     grid-row: 2;
   }
 
