@@ -11,7 +11,7 @@ function openNav() {
     }
   }
 
-  var x = window.matchMedia("(max-width: 1190px)")
+  var x = window.matchMedia("(max-width: 1020px)")
   myFunction(x)
   x.addListener(myFunction)
 }
@@ -29,7 +29,7 @@ function closeNav() {
     }
   }
 
-  var x = window.matchMedia("(max-width: 1190px)")
+  var x = window.matchMedia("(max-width: 1020px)")
   myFunction(x)
   x.addListener(myFunction)
 }
