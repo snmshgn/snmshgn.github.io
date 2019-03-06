@@ -11,7 +11,7 @@ h2 {
 }
 
 footer > ul > li > a {
-  color: #FFFFFF;
+  color: #000000;
 }
 
   /* Styling */
@@ -43,6 +43,17 @@ ul {
 .secondary-ul {
   list-style: circle;
   margin-left: 30px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer ul {
+  display: inline-table;
+  list-style: none;
+  margin: 0px 25px 0px 25px;
 }
 
   /* Typography */
@@ -295,6 +306,20 @@ img, p, ul {
     margin: auto;
   }
 
+  /* Footer */
+
+  footer {
+    position: relative;
+    bottom: 0;
+    top: 300px;
+  }
+
+  .footer {
+    z-index: -1;
+  }
+
+  /* Projects */
+
   .projects-container {
     display: grid;
     grid-template-columns: 16px auto 16px;
@@ -465,6 +490,10 @@ img, p, ul {
 
   img {
     width: 100%;
+  }
+
+  .footer {
+    content: url("../images/mobile/footerbg.png");
   }
 
   .first-project-img {
