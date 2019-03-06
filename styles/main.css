@@ -11,7 +11,7 @@ h2 {
 }
 
 footer > ul > li > a {
-  color: #000000;
+  color: #FFFFFF;
 }
 
   /* Styling */
@@ -46,13 +46,18 @@ ul {
 }
 
 footer {
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
 footer ul {
   display: inline-flex;
   list-style: none;
+  width: 100vw;
+}
+
+footer > ul > li {
+  margin: 0 auto;
 }
 
   /* Typography */
@@ -68,6 +73,10 @@ button, .menu-button-p {
 
 .backtotop {
   font-size: 9px;
+}
+
+footer > ul {
+  font-size: 1.5em;
 }
 
 h1, h2 {
@@ -314,7 +323,14 @@ img, p, ul {
   }
 
   .footer {
+    position: relative;
+    bottom: -35px;
     z-index: -1;
+  }
+
+  footer > ul {
+    bottom: 30px;
+    position: relative;
   }
 
   /* Projects */
@@ -487,12 +503,9 @@ img, p, ul {
 
   /* Images */
 
-  img {
-    width: 100%;
-  }
-
   .footer {
     content: url("../images/mobile/footerbg.png");
+    width: 100vw;
   }
 
   .first-project-img {
@@ -669,6 +682,14 @@ img, p, ul {
   }
 
   /* Images */
+
+  img {
+    width: 100%;
+  }
+
+  .footer {
+    content: url("../images/desktop/footerbg.png");
+  }
 
   .first-project-img {
     content: url("../images/desktop/headphones.png");
