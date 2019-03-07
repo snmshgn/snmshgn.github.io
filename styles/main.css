@@ -267,7 +267,7 @@ img, p, ul {
     top: -20px;
     transition: .3s;
     visibility: hidden;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
   }
 
@@ -385,7 +385,7 @@ img, p, ul {
     position: relative;
     top: -20px;
     margin: auto;
-    width: 359px;
+    width: 300px;
   }
 
   .featured-project > .casestudy-button {
@@ -418,7 +418,7 @@ img, p, ul {
     position: relative;
     top: -20px;
     margin: auto;
-    width: 359px;
+    width: 300px;
   }
 
   .secondary-project > .casestudy-button {
@@ -451,7 +451,7 @@ img, p, ul {
     position: relative;
     top: -20px;
     margin: auto;
-    width: 359px;
+    width: 300px;
   }
 
   .tertiary-project > .casestudy-button {
@@ -466,7 +466,7 @@ img, p, ul {
   /* Styling */
 
   button {
-    width: 335px;
+    width: 300px;
   }
 
   /* Typography */
@@ -481,23 +481,19 @@ img, p, ul {
     line-height: 72px;
   }
 
-  #menu > h2 {
-    font-size: 112px;
-  }
-
   #menu > ul {
     line-height: 84px;
   }
 
-  nav > h2{
-    font-size: 112px;
-  }
-
   h3 {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   p, ul {
+    font-size: 18px;
+  }
+
+  .description {
     font-size: 18px;
   }
 
@@ -506,6 +502,10 @@ img, p, ul {
   }
 
   /* Images */
+
+  img {
+    width: 100vw;
+  }
 
   .footer {
     content: url("../images/mobile/footerbg.png");
@@ -534,7 +534,7 @@ img, p, ul {
     margin: 0 auto;
     margin-bottom: 50px;
     top: 300px;
-    width: 375px;
+    width: 100vw;
   }
 
 }
@@ -689,11 +689,11 @@ img, p, ul {
   }
 
   h3 {
-    font-size: 54px;
+    font-size: 44px;
   }
 
   p, ul {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   /* Images */
@@ -1060,11 +1060,11 @@ img, p, ul {
   }
 
   h3 {
-    font-size: 54px;
+    font-size: 44px;
   }
 
   p, ul {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   /* Images */
