@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 button {
   background-color: #F8F8F8;
   border-radius: 50px;
@@ -527,7 +531,6 @@ img, p, ul {
   /* Carousel */
 
   .flickity-enabled {
-    left: 16px;
     margin: 0 auto;
     margin-bottom: 50px;
     top: 300px;
@@ -608,6 +611,18 @@ img, p, ul {
   #menu > #menu-button-close {
     grid-row: 6;
   }
+
+  /* Footer */
+
+  footer > ul {
+    right: -370px;
+  }
+
+  footer > ul > li {
+    margin: 0 5%;
+  }
+
+  /* Projects */
 
   .featured-project > svg {
     height: 330px;
@@ -709,6 +724,10 @@ img, p, ul {
     width: 98vw;
   }
 
+  .flickity-page-dots {
+    bottom: 30px;
+  }
+
 }
 
 /* Landscape Tablet & Low Res Laptop */
@@ -739,7 +758,7 @@ img, p, ul {
 
   .intro-container {
     position: relative;
-    left: 50%;
+    left: 40%;
     top: 120px;
     width: 440px;
   }
@@ -863,9 +882,21 @@ img, p, ul {
     grid-row: 2;
   }
 
+  /* Footer */
+
+  footer {
+    top: 700px;
+  }
+
+  footer > ul {
+    right: -530px;
+  }
+
+  /* Projects */
+
   .projects-container {
     display: grid;
-    grid-template-columns: 100px 200px 200px auto 200px 200px 100px;
+    grid-template-columns: 50px 50px 50px auto 50px 50px 50px;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
   }
 
@@ -876,7 +907,7 @@ img, p, ul {
 
   .featured-project, .secondary-project, .tertiary-project {
     display: grid;
-    grid-template-columns: 200px 200px auto 200px 200px;
+    grid-template-columns: 100px 100px auto 100px 100px;
     grid-template-rows: 114px 100px 100px 100px 100px 100px 100px 100px;
   }
 
@@ -1005,9 +1036,9 @@ img, p, ul {
   /* Typography */
 
   h1 {
-    font-size: 363px;
+    font-size: 250px;
     position: relative;
-    top: -160px;
+    top: -140px;
     line-height: inherit;
   }
 
@@ -1052,7 +1083,6 @@ img, p, ul {
   }
 
   .header-container > h1 {
-    background-image: url("../images/desktop/header_designbychange.png");
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1062,9 +1092,13 @@ img, p, ul {
 
   .flickity-enabled {
     top: 100vh;
-    left: 100px;
+    left: 54px;
     margin: 0 auto;
-    width: 1240px;
+    width: 90vw;
+  }
+
+  .flickity-page-dots {
+    bottom: -30px;
   }
 
 }
@@ -1072,14 +1106,32 @@ img, p, ul {
 /* Desktop */
 @media screen and (min-width: 1440px) {
 
-  .intro-container {
-    left: 40%;
+  /* Footer */
+
+  footer > ul {
+    right: -750px;
+  }
+
+  /* Projects */
+
+  .projects-container {
+    grid-template-columns: 100px 200px 200px auto 200px 200px 100px;
+  }
+
+  .featured-project, .secondary-project, .tertiary-project {
+    grid-template-columns: 200px 200px auto 200px 200px;
+  }
+
+  /* Typography */
+
+  h1 {
+    font-size: 363px;
+    top: -160px;
   }
 
   /* Carousel */
 
   .flickity-enabled {
-    top: 100vh;
     left: 0px;
     margin: 0 auto;
     width: 1240px;
