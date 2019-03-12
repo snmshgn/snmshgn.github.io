@@ -875,7 +875,6 @@ img, p, ul {
 
   footer {
     top: 700px;
-    z-index: 4;
   }
 
   footer > ul {
