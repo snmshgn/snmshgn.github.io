@@ -46,7 +46,7 @@
   }
 
   .about-header-img {
-      content: url("/images/mobile/selfportrait.png");
+      content: url("/../images/mobile/selfportrait.png");
   }
 
   /* Typography */
@@ -105,7 +105,7 @@
   /* Images */
 
   .about-header-img {
-    content: url("/images/desktop/selfportrait.png");
+    content: url("/../images/desktop/selfportrait.png");
   }
 
   /* Typography */
