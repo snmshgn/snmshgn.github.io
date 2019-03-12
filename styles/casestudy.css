@@ -98,6 +98,14 @@
     margin-top: 30px;
   }
 
+  .desktop-button {
+    display: none;
+  }
+
+  .mobile-button {
+    display: block;
+  }
+
   .img1 {
     grid-row: 6;
   }
@@ -331,6 +339,14 @@
   .content-container > article > h3 {
     margin-bottom: 40px;
     margin-top: 70px;
+  }
+
+  .desktop-button {
+    display: block;
+  }
+
+  .mobile-button {
+    display: none;
   }
 
   .left {
