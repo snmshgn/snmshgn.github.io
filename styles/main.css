@@ -818,7 +818,6 @@ img, p, ul {
     height: 100%;
     position: fixed;
     overflow-y: visible;
-    overflow-x: hidden;
     width: 100px;
   }
 
