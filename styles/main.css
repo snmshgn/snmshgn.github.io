@@ -501,22 +501,22 @@ img, p, ul {
   }
 
   .footer {
-    content: url("../images/mobile/footerbg.png");
+    content: url("/images/mobile/footerbg.png");
     width: 100vw;
   }
 
   .first-project-img {
-    content: url("images/mobile/headphones.png");
+    content: url("/images/mobile/headphones.png");
     z-index: -1;
   }
 
   .second-project-img {
-    content: url("images/mobile/cassette.png");
+    content: url("/images/mobile/cassette.png");
     z-index: -1;
   }
 
   .header-container > h1 {
-    background-image: url("images/mobile/header_designbychange.png");
+    background-image: url("/images/mobile/header_designbychange.png");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -692,19 +692,19 @@ img, p, ul {
   }
 
   .footer {
-    content: url("images/desktop/footerbg.png");
+    content: url("/images/desktop/footerbg.png");
   }
 
   .first-project-img {
-    content: url("images/desktop/headphones.png");
+    content: url("/images/desktop/headphones.png");
   }
 
   .second-project-img {
-    content: url("images/desktop/cassette.png");
+    content: url("/images/desktop/cassette.png");
   }
 
   .header-container > h1 {
-    background-image: url("images/desktop/header_designbychange.png");
+    background-image: url("/images/desktop/header_designbychange.png");
   }
 
   /* Carousel */
@@ -1065,11 +1065,11 @@ img, p, ul {
   }
 
   .first-project-img {
-    content: url("images/desktop/headphones.png");
+    content: url("/images/desktop/headphones.png");
   }
 
   .second-project-img {
-    content: url("images/desktop/cassette.png");
+    content: url("/images/desktop/cassette.png");
   }
 
   .header-container > h1 {

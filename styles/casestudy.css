@@ -229,52 +229,52 @@
   }
 
   .headerimg {
-    content: url("images/mobile/microphone.png");
+    content: url("/images/mobile/microphone.png");
   }
 
   .img1 {
-    content: url("images/mobile/isometric-mobile.png");
+    content: url("/images/mobile/isometric-mobile.png");
     img-size: cover;
   }
 
   .imgsurveys1 {
-    content: url("images/mobile/usersurveys_1.png");
+    content: url("/images/mobile/usersurveys_1.png");
   }
 
   .persona1 {
-    content: url("images/mobile/persona1.png");
+    content: url("/images/mobile/persona1.png");
   }
 
   .persona2 {
-    content: url("images/mobile/persona2.png");
+    content: url("/images/mobile/persona2.png");
   }
 
   .userflow {
-    content: url("images/mobile/userflow.png");
+    content: url("/images/mobile/userflow.png");
   }
 
   .sitemap {
-    content: url("images/mobile/sitemap.png");
+    content: url("/images/mobile/sitemap.png");
   }
 
   .imgsurveys2 {
-    content: url("images/mobile/usersurveys_2.png");
+    content: url("/images/mobile/usersurveys_2.png");
   }
 
   .wireframes-pt1 {
-    content: url("images/mobile/wireframing_1.png");
+    content: url("/images/mobile/wireframing_1.png");
   }
 
   .wireframes-pt2 {
-    content: url("images/mobile/wireframing_2.png");
+    content: url("/images/mobile/wireframing_2.png");
   }
 
   .imgcolors {
-    content: url("images/mobile/colors.png");
+    content: url("/images/mobile/colors.png");
   }
 
   .styleguide {
-    content: url("images/mobile/styleguide.png");
+    content: url("/images/mobile/styleguide.png");
   }
 
 }
@@ -374,51 +374,51 @@
   }
 
   .headerimg {
-    content: url("images/desktop/microphone.png");
+    content: url("/images/desktop/microphone.png");
   }
 
   .img1 {
-    content: url("images/desktop/isometric-mobile.png");
+    content: url("/images/desktop/isometric-mobile.png");
   }
 
   .imgsurveys1 {
-    content: url("images/desktop/usersurveys_1.png");
+    content: url("/images/desktop/usersurveys_1.png");
   }
 
   .persona1 {
-    content: url("images/desktop/Persona1.png");
+    content: url("/images/desktop/Persona1.png");
   }
 
   .persona2 {
-    content: url("images/desktop/Persona2.png");
+    content: url("/images/desktop/Persona2.png");
   }
 
   .userflow {
-    content: url("images/desktop/userflow.png");
+    content: url("/images/desktop/userflow.png");
   }
 
   .sitemap {
-    content: url("images/desktop/sitemap.png");
+    content: url("/images/desktop/sitemap.png");
   }
 
   .imgsurveys2 {
-    content: url("images/desktop/usersurveys_2.png");
+    content: url("/images/desktop/usersurveys_2.png");
   }
 
   .wireframes-pt1 {
-    content: url("images/desktop/wireframing_1.png");
+    content: url("/images/desktop/wireframing_1.png");
   }
 
   .wireframes-pt2 {
-    content: url("images/desktop/wireframing_2.png");
+    content: url("/images/desktop/wireframing_2.png");
   }
 
   .imgcolors {
-    content: url("images/desktop/colors.png");
+    content: url("/images/desktop/colors.png");
   }
 
   .styleguide {
-    content: url("images/desktop/styleguide.png");
+    content: url("/images/desktop/styleguide.png");
   }
 
   /* Styling */
@@ -683,59 +683,59 @@
   }
 
   .headerimg {
-    content: url("images/desktop/microphone.png");
+    content: url("/images/desktop/microphone.png");
   }
 
   .img1 {
-    content: url("images/desktop/isometric-mobile.png");
+    content: url("/images/desktop/isometric-mobile.png");
     width: 100vw;
   }
 
   .imgsurveys1 {
-    content: url("images/desktop/usersurveys_1.png");
+    content: url("/images/desktop/usersurveys_1.png");
     width: 100vw;
   }
 
   .persona1 {
-    content: url("images/desktop/Persona1.png");
+    content: url("/images/desktop/Persona1.png");
   }
 
   .persona2 {
-    content: url("images/desktop/Persona2.png");
+    content: url("/images/desktop/Persona2.png");
   }
 
   .userflow {
-    content: url("images/desktop/userflow.png");
+    content: url("/images/desktop/userflow.png");
     width: 100vw;
   }
 
   .sitemap {
-    content: url("images/desktop/sitemap.png");
+    content: url("/images/desktop/sitemap.png");
     width: 100vw;
   }
 
   .imgsurveys2 {
-    content: url("images/desktop/usersurveys_2.png");
+    content: url("/images/desktop/usersurveys_2.png");
     width: 100vw;
   }
 
   .wireframes-pt1 {
-    content: url("images/desktop/wireframing_1.png");
+    content: url("/images/desktop/wireframing_1.png");
     width: 100vw;
   }
 
   .wireframes-pt2 {
-    content: url("images/desktop/wireframing_2.png");
+    content: url("/images/desktop/wireframing_2.png");
     width: 100vw;
   }
 
   .imgcolors {
-    content: url("images/desktop/colors.png");
+    content: url("/images/desktop/colors.png");
     width: 100vw;
   }
 
   .styleguide {
-    content: url("images/desktop/styleguide.png");
+    content: url("/images/desktop/styleguide.png");
     width: 100vw;
   }
 
@@ -996,59 +996,59 @@
   /* Images */
 
   .headerimg {
-    content: url("images/desktop/microphone.png");
+    content: url("/images/desktop/microphone.png");
   }
 
   .img1 {
-    content: url("images/desktop/isometric-mobile.png");
+    content: url("/images/desktop/isometric-mobile.png");
     width: 100%;
   }
 
   .imgsurveys1 {
-    content: url("images/desktop/usersurveys_1.png");
+    content: url("/images/desktop/usersurveys_1.png");
     width: 100%;
   }
 
   .persona1 {
-    content: url("images/desktop/Persona1.png");
+    content: url("/images/desktop/Persona1.png");
   }
 
   .persona2 {
-    content: url("images/desktop/Persona2.png");
+    content: url("/images/desktop/Persona2.png");
   }
 
   .userflow {
-    content: url("images/desktop/userflow.png");
+    content: url("/images/desktop/userflow.png");
     width: 100%;
   }
 
   .sitemap {
-    content: url("images/desktop/sitemap.png");
+    content: url("/images/desktop/sitemap.png");
     width: 100%;
   }
 
   .imgsurveys2 {
-    content: url("images/desktop/usersurveys_2.png");
+    content: url("/images/desktop/usersurveys_2.png");
     width: 100%;
   }
 
   .wireframes-pt1 {
-    content: url("images/desktop/wireframing_1.png");
+    content: url("/images/desktop/wireframing_1.png");
     width: 100%;
   }
 
   .wireframes-pt2 {
-    content: url("images/desktop/wireframing_2.png");
+    content: url("/images/desktop/wireframing_2.png");
     width: 100%;
   }
 
   .imgcolors {
-    content: url("images/desktop/colors.png");
+    content: url("/images/desktop/colors.png");
     width: 100%;
   }
 
   .styleguide {
-    content: url("images/desktop/styleguide.png");
+    content: url("/images/desktop/styleguide.png");
     width: 100%;
   }
 
