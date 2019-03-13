@@ -1060,15 +1060,7 @@ img, p, ul {
     overflow: hidden;
     width: 100%;
   }
-
-  .first-project-img {
-    content: url("/../images/desktop/headphones.png");
-  }
-
-  .second-project-img {
-    content: url("/../images/desktop/cassette.png");
-  }
-
+  
   .header-container > h1 {
     background-size: cover;
     -webkit-background-clip: text;
