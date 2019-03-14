@@ -539,15 +539,15 @@ img, p, ul {
 @media screen and (min-width: 375px) {
 
   .featured-project > svg {
-    top: 50px;
+    top: 30px;
   }
 
   .secondary-project > svg {
-    top: 50px;
+    top: 30px;
   }
 
   .tertiary-project > svg {
-    top: 50px;
+    top: 30px;
   }
 
   .featured-project > .casestudy-button {
@@ -575,7 +575,7 @@ img, p, ul {
   }
 
   .flickity-page-dots {
-    bottom: 10px;
+    bottom: -20px;
   }
 
 }
