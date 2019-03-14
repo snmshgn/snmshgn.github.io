@@ -11,10 +11,14 @@
 
   .about-header-img, header {
     grid-column: 1 / 4;
+  }
+
+  .about-header-img {
     grid-row: 2;
   }
 
   header {
+    grid-row: 3;
     position: relative;
     margin: 0 auto;
     top: 92%;
