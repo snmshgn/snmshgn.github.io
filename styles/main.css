@@ -176,6 +176,14 @@ img, p, ul {
     width: 127px;
   }
 
+  .logo-svg {
+    grid-row: 10;
+    position: relative;
+    bottom: 100px;
+    left: 290px;
+    transform: rotate(90deg);
+  }
+
   .description {
     grid-column-start: 1;
     grid-row: 2;
@@ -586,6 +594,13 @@ img, p, ul {
     right: 20px;
   }
 
+  .logo-svg {
+    position: relative;
+    bottom: 100px;
+    left: 335px;
+    transform: rotate(90deg);
+  }
+
   /* Menu */
 
   #menu {
@@ -677,6 +692,10 @@ img, p, ul {
 
   /* Typography */
 
+  .description {
+    font-size: 20px;
+  }
+
   h1 {
     overflow: hidden;
   }
@@ -762,6 +781,13 @@ img, p, ul {
     margin: 20px 0px;
     transform: rotate(90deg);
     width: auto;
+  }
+
+  .logo-svg {
+    position: relative;
+    bottom: 130px;
+    left: 295px;
+    transform: rotate(90deg);
   }
 
   .description {
@@ -1026,6 +1052,10 @@ img, p, ul {
   }
 
   /* Typography */
+
+  .description {
+    font-size: 18px;
+  }
 
   h1 {
     font-size: 250px;
