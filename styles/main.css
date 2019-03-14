@@ -536,23 +536,6 @@ img, p, ul {
 
 }
 
-/* Large Moble */
-@media screen and (min-width: 400px) {
-
-  .featured-project > h2, .casestudy-description, .casestudy-button {
-    top: 20px;
-  }
-
-  .secondary-project > h2, .casestudy-description, .casestudy-button {
-    top: 20px;
-  }
-
-  .tertiary-project > h2, .casestudy-description, .casestudy-button {
-    top: 20px;
-  }
-
-}
-
 /* Tablet */
 @media screen and (min-width: 768px) {
 
