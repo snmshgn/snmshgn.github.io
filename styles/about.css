@@ -64,10 +64,10 @@
 }
 
 /* Larger Mobile */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 425px) {
 
   header {
-    top: 430px;
+    top: 481px;
   }
 
 }
