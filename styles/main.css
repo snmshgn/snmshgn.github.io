@@ -279,14 +279,14 @@ img, p, ul {
 
   #menu > ul {
     grid-column: 1 / 3;
-    grid-row: 3;
+    grid-row: 4;
     margin: auto;
     width: auto;
   }
 
   #menu > #menu-button-close {
     grid-column: 2;
-    grid-row: 8;
+    grid-row: 10;
     margin: auto;
   }
 
@@ -598,6 +598,11 @@ img, p, ul {
 
   #menu > ul {
     grid-column: 2 / 3;
+    grid-row: 3;
+  }
+
+  #menu > #menu-button-close {
+    grid-row: 8;
   }
 
   /* Footer */
@@ -1060,7 +1065,7 @@ img, p, ul {
     overflow: hidden;
     width: 100%;
   }
-  
+
   .header-container > h1 {
     background-size: cover;
     -webkit-background-clip: text;
