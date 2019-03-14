@@ -539,6 +539,28 @@ img, p, ul {
 
 }
 
+/* Large Moble */
+@media screen and (min-width: 400px) {
+
+  .project-container > article > svg {
+    height: 630px;
+  }
+
+  .casestudy-description, .casestudy-button {
+    position: relative;
+    top: 20px;
+  }
+
+  .casestudy-description {
+    grid-row: 8;
+  }
+
+  .casestudy-button {
+    grid-row: 9;
+  }
+
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
 
