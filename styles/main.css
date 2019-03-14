@@ -696,7 +696,7 @@ img, p, ul {
   .featured-project > h2 {
     grid-row: 3 / 4;
     position: relative;
-    top: 40%;
+    top: 30px;
   }
 
   .featured-project > .casestudy-description {
@@ -718,7 +718,7 @@ img, p, ul {
   .secondary-project > h2 {
     grid-row: 3 / 4;
     position: relative;
-    top: 40%;
+    top: 30px;
   }
 
   .secondary-project > .casestudy-description {
@@ -736,7 +736,7 @@ img, p, ul {
   .tertiary-project > h2 {
     grid-row: 3 / 4;
     position: relative;
-    top: 40%;
+    top: 30px;
   }
 
   .tertiary-project > .casestudy-description {
