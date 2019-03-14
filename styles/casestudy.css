@@ -20,20 +20,20 @@
 
   .content-container {
     display: inline-grid;
-    /* 5 */grid-template-columns: 20px auto auto auto 20px;
+    /* 5 */grid-template-columns: 80px auto auto auto 20px;
     /* 32 */grid-template-rows: 560px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     position: relative;
     margin-bottom: 40px;
   }
 
   header {
-    grid-column: 1 / 6;
+    grid-column: 3 / 6;
     grid-row: 1;
     margin: 0;
   }
 
   .headerimg {
-    grid-column: 1 / 6;
+    grid-column: 2 / 6;
     grid-row: 1;
     margin-top: 0;
     z-index: -1;
@@ -283,6 +283,13 @@
   .styleguide {
     content: url("/../images/mobile/styleguide.png");
   }
+
+}
+
+/* Larger Mobile */
+@media screen and (min-width: 375px) {
+
+
 
 }
 

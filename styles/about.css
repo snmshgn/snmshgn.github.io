@@ -16,6 +16,7 @@
 
   header {
     position: relative;
+    margin: 0 auto;
     top: 395px;
   }
 
@@ -58,6 +59,15 @@
   .aboutme-hello > h3 {
     color: #83AA9F;
     font-size: 82px;
+  }
+
+}
+
+/* Larger Mobile */
+@media screen and (min-width: 375px) {
+
+  header {
+    top: 470px;
   }
 
 }
