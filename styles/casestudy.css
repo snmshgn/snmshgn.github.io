@@ -27,14 +27,14 @@
   }
 
   header {
-    grid-column: 3 / 6;
-    grid-row: 1;
+    grid-column: 1 / 6;
+    grid-row: 2;
     margin: 0;
   }
 
   .headerimg {
-    grid-column: 2 / 6;
-    grid-row: 1;
+    grid-column: 1 / 6;
+    grid-row: 2;
     margin-top: 0;
     z-index: -1;
   }
