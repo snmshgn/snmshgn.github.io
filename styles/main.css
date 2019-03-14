@@ -133,7 +133,7 @@ img, p, ul {
 
 /* position dots up a bit */
 .flickity-page-dots {
-  bottom: 10px;
+  bottom: 30px;
 }
 
 /* Mobile */
@@ -539,15 +539,15 @@ img, p, ul {
 @media screen and (min-width: 375px) {
 
   .featured-project > svg {
-    top: 30px;
+    top: 10px;
   }
 
   .secondary-project > svg {
-    top: 30px;
+    top: 10px;
   }
 
   .tertiary-project > svg {
-    top: 30px;
+    top: 10px;
   }
 
   .featured-project > .casestudy-button {
