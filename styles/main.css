@@ -383,6 +383,7 @@ img, p, ul {
   .featured-project > .casestudy-description {
     grid-row: 7;
     position: relative;
+    top: -20px;
     margin: auto;
     width: 300px;
   }
@@ -415,6 +416,7 @@ img, p, ul {
   .secondary-project > .casestudy-description {
     grid-row: 7;
     position: relative;
+    top: -20px;
     margin: auto;
     width: 300px;
   }
@@ -447,6 +449,7 @@ img, p, ul {
   .tertiary-project > .casestudy-description {
     grid-row: 7;
     position: relative;
+    top: -20px;
     margin: auto;
     width: 300px;
   }
