@@ -594,6 +594,34 @@ img, p, ul {
     top: 0px;
   }
 
+  .featured-project > .casestudy-description {
+    top: -10px;
+  }
+
+  .secondary-project > .casestudy-description {
+    top: -10px;
+  }
+
+  .tertiary-project > .casestudy-description {
+    top: -10px;
+  }
+
+  .featured-project > h2, .casestudy-description {
+    top: 14px;
+  }
+
+  .secondary-project > h2, .casestudy-description {
+    top: 14px;
+  }
+
+  .tertiary-project > h2, .casestudy-description {
+    top: 14px;
+  }
+
+  .secondary-project > h2 {
+    top: 60px;
+  }
+
 }
 
 /* Tablet */
