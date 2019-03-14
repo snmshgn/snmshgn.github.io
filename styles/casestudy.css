@@ -20,8 +20,8 @@
 
   .content-container {
     display: inline-grid;
-    /* 5 */grid-template-columns: 80px auto auto auto 20px;
-    /* 32 */grid-template-rows: 560px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    /* 5 */grid-template-columns: 20px auto auto auto 20px;
+    /* 32 */grid-template-rows: 80px auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     position: relative;
     margin-bottom: 40px;
   }
@@ -80,20 +80,20 @@
   }
 
   .overview {
-    grid-row: 2;
-  }
-
-  .problem {
     grid-row: 3;
   }
 
-  .solution {
+  .problem {
     grid-row: 4;
+  }
+
+  .solution {
+    grid-row: 5;
   }
 
   .prototype-button {
     align-items: center;
-    grid-row: 5;
+    grid-row: 6;
     margin-bottom: 20px;
     margin-top: 30px;
   }
@@ -107,125 +107,125 @@
   }
 
   .img1 {
-    grid-row: 6;
-  }
-
-  .brief {
     grid-row: 7;
   }
 
-  .surveys-pt1 {
+  .brief {
     grid-row: 8;
   }
 
-  .imgsurveys1 {
+  .surveys-pt1 {
     grid-row: 9;
+  }
+
+  .imgsurveys1 {
+    grid-row: 10;
     margin-bottom: 30px;
   }
 
   .surveys-pt2 {
-    grid-row: 10;
-  }
-
-  .com-analysis {
     grid-row: 11;
   }
 
-  .personas {
-    grid-row: 13;
-  }
-
-  .persona1 {
+  .com-analysis {
     grid-row: 12;
   }
 
-  .persona2 {
+  .personas {
     grid-row: 14;
   }
 
-  .stories {
+  .persona1 {
+    grid-row: 13;
+  }
+
+  .persona2 {
     grid-row: 15;
   }
 
-  .userflow {
+  .stories {
     grid-row: 16;
   }
 
-  .flows {
+  .userflow {
     grid-row: 17;
   }
 
-  .sitemap {
+  .flows {
     grid-row: 18;
   }
 
-  .wireframes1 {
+  .sitemap {
     grid-row: 19;
   }
 
-  .wireframes-pt1 {
+  .wireframes1 {
     grid-row: 20;
   }
 
-  .surveys-rd2 {
+  .wireframes-pt1 {
     grid-row: 21;
   }
 
-  .imgsurveys2 {
+  .surveys-rd2 {
     grid-row: 22;
   }
 
-  .comp-analysis2 {
+  .imgsurveys2 {
     grid-row: 23;
   }
 
-  .wireframes2 {
+  .comp-analysis2 {
     grid-row: 24;
   }
 
-  .wireframes-pt2 {
+  .wireframes2 {
     grid-row: 25;
   }
 
-  .prototyping {
+  .wireframes-pt2 {
     grid-row: 26;
   }
 
-  .branding {
+  .prototyping {
     grid-row: 27;
   }
 
-  .colors {
+  .branding {
     grid-row: 28;
   }
 
-  .imgcolors {
+  .colors {
     grid-row: 29;
+  }
+
+  .imgcolors {
+    grid-row: 30;
     margin-bottom: 30px;
   }
 
   .colorspt2 {
-    grid-row: 30;
-  }
-
-  .typography {
     grid-row: 31;
   }
 
-  .styleguide {
+  .typography {
     grid-row: 32;
   }
 
-  .logo {
+  .styleguide {
     grid-row: 33;
   }
 
-  .hifimockups {
+  .logo {
     grid-row: 34;
   }
 
-  .conclusion {
+  .hifimockups {
     grid-row: 35;
+  }
+
+  .conclusion {
+    grid-row: 36;
   }
 
   /* Images */
