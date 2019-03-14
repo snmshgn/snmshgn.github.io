@@ -63,15 +63,6 @@
 
 }
 
-/* Larger Mobile */
-@media screen and (min-width: 375px) {
-
-  header {
-    top: 470px;
-  }
-
-}
-
 /* Tablet */
 @media screen and (min-width: 768px) {
 
