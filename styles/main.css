@@ -250,7 +250,7 @@ img, p, ul {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-rows: 10px 20px 20px 20px 10px;
-    height: 80px;
+    height: 5em;
     position: fixed;
     overflow-x: visible;
     margin-right: -80px;
