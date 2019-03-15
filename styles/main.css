@@ -625,7 +625,7 @@ img, p, ul {
 }
 
 /* Upright Tablet & Landscape Large Mobile */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
 
   .hidden-break {
     display: none;
@@ -830,5 +830,7 @@ img, p, ul {
 
 /* Landscape Tablet & Low Res Laptop */
 @media screen and (min-width: 1024px) {
+
+
 
 }
