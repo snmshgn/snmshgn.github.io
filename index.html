@@ -15,78 +15,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="styles/flickity.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900|Playfair+Display:900|Source+Sans+Pro:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   </head>
   <body>
     <header class="header-container">
       <h1>DES<br class ="hidden-break"/>IGN</h1>
     </header>
-    <nav class="sidebar-opacity">
-      <div id="menu-button" class="menu-button" style="cursor:pointer" onclick="openNav()">
-        <svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.125 12.5L33.875 12.5V10.5L0.125 10.5L0.125 12.5V12.5ZM0.125 7.5L33.875 7.5V5.5L0.125 5.5L0.125 7.5V7.5ZM0.125 0.5L0.125 2.5L33.875 2.5V0.5L0.125 0.5V0.5Z" fill="#141301"/></svg>
-        <p class="menu-button-p">MENU</p>
-      </div>
-      <aside id="menu">
-        <h2>MENU</h2>
-        <ul>
-          <li><h3><a href="/index.html">Home</a></h3></li>
-          <li><h3><a href="/about.html">About</a></h3></li>
-          <li><h3><!--Scrolls to projects Projects--><a onclick="smoothScroll(document.getElementById('projects'))">Projects</a></h3></li>
-          <li><h3><a href="mailto:snmshgn@aol.com">Contact</a></h3></li>
-        </ul>
-        <div id="menu-button-close" class="menu-button" style="cursor:pointer" onclick="closeNav()"><svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.125 12.5L33.875 12.5V10.5L0.125 10.5L0.125 12.5V12.5ZM0.125 7.5L33.875 7.5V5.5L0.125 5.5L0.125 7.5V7.5ZM0.125 0.5L0.125 2.5L33.875 2.5V0.5L0.125 0.5V0.5Z" fill="#141301"/></svg><p class="menu-button-p">MENU</p></div>
-      </aside>
-    </nav>
-    <main class="main-container">
-      <section class="intro-container">
-        <h3 class="hello">HE<br/>LLO.</h3>
-        <svg class="logo-svg" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4.12149 24.8322C4.17933 25.952 2.96465 26.1199 2.96465 26.7638C3.1213 27.2677 3.39123 28.2811 5.09758 28.5274C7.23052 28.8353 7.59204 26.3439 7.04977 25.5601C6.50749 24.7763 6.76055 24.4123 9.54422 24.8322C12.3279 25.2522 18.546 25.784 23.0288 25.1682C27.5115 24.5523 29.3191 22.2848 29.8614 19.2615C30.4037 16.2382 28.8112 12.5692 28.1623 12.0111C27.8351 11.7298 27.6693 11.8352 27.5821 11.5055C27.5821 11.1695 27.7324 10.4813 28.1623 10.1636C28.9576 9.57569 29.2468 7.84009 29.3191 6.83231C29.3914 5.82454 27.3669 3.64104 27.3669 4.90075C27.3669 6.16047 25.957 7.28021 25.0171 7.84009C24.0771 8.39996 23.571 7.28021 23.0288 6.83231C22.4865 6.38442 18.546 6.77633 15.0031 7.28021C11.4603 7.7841 10.2311 7.36419 7.59204 7.28021C4.95298 7.19623 6.25443 8.37197 7.04977 9.21178C7.8451 10.0516 8.64043 10.1636 12.5087 10.1636C16.3769 10.1636 20.1005 9.18378 21.3658 9.21178C22.378 9.23417 23.5951 9.85563 24.0771 10.1636C23.7156 11.3673 23.4987 12.851 24.4387 13.2709C25.1906 13.6068 26.4873 13.1309 27.0416 12.851C27.5838 14.6985 27.2585 16.2382 26.4993 18.3657C25.7401 20.4932 21.8719 22.1728 19.5221 22.7327C17.1722 23.2926 10.5926 22.4528 7.04977 21.361C3.50691 20.2693 3.07309 21.333 2.96464 21.8369C2.85619 22.3408 4.04919 23.4326 4.12149 24.8322Z" fill="#FF5953"/>
-          <path d="M22.5588 15.3424C23.5132 15.8351 23.4626 17.2237 23.0288 17.3859C21.9804 17.7778 15.0031 17.7218 9.54422 16.2662C4.08534 14.8105 0.976312 10.6394 0.904009 7.84009C0.831705 5.04073 2.96465 2.24134 5.09758 1.03762C7.23051 -0.166111 11.641 0.645706 14.6778 1.34555C17.7145 2.04539 21.8834 1.91169 22.4412 1.47554C23.0767 0.978637 24.7279 1.37354 25.6317 2.01739C26.5355 2.66125 27.0416 3.13714 26.2101 3.753C25.3786 4.36887 20.932 4.11692 17.7145 3.38908C14.497 2.66125 10.7372 2.49329 8.7489 2.66125C6.76056 2.82921 4.12149 6.60836 4.12149 9.21178C4.12149 11.8152 6.5075 13.6348 9.07426 14.6425C11.641 15.6503 17.7145 15.3424 18.9798 15.1184C20.2451 14.8945 21.3658 14.7265 22.5588 15.3424Z" fill="#FF5953"/>
-        </svg>
-        <p class="description">My name is Sona Moushigian, a web designer based in the United States. I love to blend design and graphics to create an attractive, intuitive design.</p>
-        <div class="svg-container">
-          <svg class="svg-name-mobile-1" width="47" height="27" viewBox="0 0 47 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.493927 0.88324L46.89 2.46242L46.7355 24.9861L2.07694 26.2707L0.493927 0.88324Z" fill="#FFDB72"/></svg>
-          <svg class="svg-name-mobile-2" width="107" height="27" viewBox="0 0 107 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.347168 0.772949L106.119 2.35213L105.767 24.8758L3.95607 26.1604L0.347168 0.772949Z" fill="#FFDB72"/></svg>
-
-          <svg class="svg-name-highlight" width="147" height="26" viewBox="0 0 147 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.408325 0.0304565L146.144 1.60964L145.658 24.1333L5.38076 25.418L0.408325 0.0304565Z" fill="#FFDB72"/></svg>
-
-          <svg class="svg-job-mobile-1" width="39" height="10" viewBox="0 0 39 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M38.1945 9.8949L0.396873 9.36585L5.42378 0.658994L36.9049 1.38973L38.1945 9.8949Z" fill="#B5EDDD"/></svg>
-          <svg class="svg-job-mobile-2" width="81" height="11" viewBox="0 0 81 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M80.0024 10.8356L0.316818 10.1793L0.582138 0.818632L77.2835 0.284754L80.0024 10.8356Z" fill="#B5EDDD"/></svg>
-
-          <svg class="svg-job-highlight" width="128" height="11" viewBox="0 0 128 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M127.987 10.866L0.384621 10.2097L0.809478 0.848968L123.634 0.315088L127.987 10.866Z" fill="#B5EDDD"/></svg>
-
-          <svg class="svg-adjective-mobile" width="128" height="12" viewBox="0 0 128 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M127.63 11.1991L0.0270462 10.5428L0.451904 1.1821L123.276 0.648218L127.63 11.1991Z" fill="#CAE5FF"/></svg>
-
-          <svg class="svg-adjective-highlight" width="129" height="12" viewBox="0 0 129 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M128.214 11.3923L0.611488 10.736L1.03635 1.37527L123.86 0.841395L128.214 11.3923Z" fill="#CAE5FF"/></svg>
+    <div class="scroll-animations">
+      <nav class="sidebar-opacity animated">
+        <div id="menu-button" class="menu-button" style="cursor:pointer" onclick="openNav()">
+          <svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.125 12.5L33.875 12.5V10.5L0.125 10.5L0.125 12.5V12.5ZM0.125 7.5L33.875 7.5V5.5L0.125 5.5L0.125 7.5V7.5ZM0.125 0.5L0.125 2.5L33.875 2.5V0.5L0.125 0.5V0.5Z" fill="#141301"/></svg>
+          <p class="menu-button-p">MENU</p>
         </div>
-      </section>
-      <section id="projects" class="project-container main-carousel" data-flickity='{ "draggable": false, "wrapAround": true }'>
-        <article class="featured-project carousel-cell">
-          <img class="first-project-img" src="/" alt="Image of headphones.">
-          <h2>Esse</h2>
-          <p class="casestudy-description">Esse is a cloud based collaboration app for musicians and musical engineers.</p>
-          <button onclick="window.location.href='/featured_project.html'" class="casestudy-button" type="button">View Case Study</button>
-          <svg width="290" height="567" viewBox="0 0 290 527" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0L290 15L279 521.5L29.5 526.5L0.5 0Z" fill="#CAE5FF"/></svg>
-        </article>
-        <article class="secondary-project carousel-cell">
-          <img class="second-project-img" src="/" alt="Image of casette.">
-          <h2>Bloc<br class ="hidden-break"/>Jams</h2>
-          <p class="casestudy-description">Under construction. Please come back later!</p>
-          <button class="casestudy-button" type="button">View Case Study</button>
-          <svg width="257" height="574" viewBox="0 0 257 543" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26 17L225.5 -0.5L257 542.5L0.5 514L26 17Z" fill="#FFDB72"/></svg>
-        </article>
-        <article class="tertiary-project carousel-cell">
-          <img class="third-project-img" src="/" alt="">
-          <h2>TBA</h2>
-          <p class="casestudy-description">Under construction. Please come back later!</p>
-          <button class="casestudy-button" type="button">View Case Study</button>
-          <svg width="290" height="567" viewBox="0 0 290 527" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0L290 15L279 521.5L29.5 526.5L0.5 0Z" fill="#CAE5FF"/></svg>
-        </article>
-      </section>
-    </main>
+        <aside id="menu">
+          <h2>MENU</h2>
+          <ul>
+            <li><h3><a href="/index.html">Home</a></h3></li>
+            <li><h3><a href="/about.html">About</a></h3></li>
+            <li><h3><!--Scrolls to projects Projects--><a onclick="smoothScroll(document.getElementById('projects'))">Projects</a></h3></li>
+            <li><h3><a href="mailto:snmshgn@aol.com">Contact</a></h3></li>
+          </ul>
+          <div id="menu-button-close" class="menu-button" style="cursor:pointer" onclick="closeNav()"><svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.125 12.5L33.875 12.5V10.5L0.125 10.5L0.125 12.5V12.5ZM0.125 7.5L33.875 7.5V5.5L0.125 5.5L0.125 7.5V7.5ZM0.125 0.5L0.125 2.5L33.875 2.5V0.5L0.125 0.5V0.5Z" fill="#141301"/></svg><p class="menu-button-p">MENU</p></div>
+        </aside>
+      </nav>
+      <main class="main-container animated">
+        <section class="intro-container">
+          <h3 class="hello">HE<br/>LLO.</h3>
+          <svg class="logo-svg" width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.12149 24.8322C4.17933 25.952 2.96465 26.1199 2.96465 26.7638C3.1213 27.2677 3.39123 28.2811 5.09758 28.5274C7.23052 28.8353 7.59204 26.3439 7.04977 25.5601C6.50749 24.7763 6.76055 24.4123 9.54422 24.8322C12.3279 25.2522 18.546 25.784 23.0288 25.1682C27.5115 24.5523 29.3191 22.2848 29.8614 19.2615C30.4037 16.2382 28.8112 12.5692 28.1623 12.0111C27.8351 11.7298 27.6693 11.8352 27.5821 11.5055C27.5821 11.1695 27.7324 10.4813 28.1623 10.1636C28.9576 9.57569 29.2468 7.84009 29.3191 6.83231C29.3914 5.82454 27.3669 3.64104 27.3669 4.90075C27.3669 6.16047 25.957 7.28021 25.0171 7.84009C24.0771 8.39996 23.571 7.28021 23.0288 6.83231C22.4865 6.38442 18.546 6.77633 15.0031 7.28021C11.4603 7.7841 10.2311 7.36419 7.59204 7.28021C4.95298 7.19623 6.25443 8.37197 7.04977 9.21178C7.8451 10.0516 8.64043 10.1636 12.5087 10.1636C16.3769 10.1636 20.1005 9.18378 21.3658 9.21178C22.378 9.23417 23.5951 9.85563 24.0771 10.1636C23.7156 11.3673 23.4987 12.851 24.4387 13.2709C25.1906 13.6068 26.4873 13.1309 27.0416 12.851C27.5838 14.6985 27.2585 16.2382 26.4993 18.3657C25.7401 20.4932 21.8719 22.1728 19.5221 22.7327C17.1722 23.2926 10.5926 22.4528 7.04977 21.361C3.50691 20.2693 3.07309 21.333 2.96464 21.8369C2.85619 22.3408 4.04919 23.4326 4.12149 24.8322Z" fill="#FF5953"/>
+            <path d="M22.5588 15.3424C23.5132 15.8351 23.4626 17.2237 23.0288 17.3859C21.9804 17.7778 15.0031 17.7218 9.54422 16.2662C4.08534 14.8105 0.976312 10.6394 0.904009 7.84009C0.831705 5.04073 2.96465 2.24134 5.09758 1.03762C7.23051 -0.166111 11.641 0.645706 14.6778 1.34555C17.7145 2.04539 21.8834 1.91169 22.4412 1.47554C23.0767 0.978637 24.7279 1.37354 25.6317 2.01739C26.5355 2.66125 27.0416 3.13714 26.2101 3.753C25.3786 4.36887 20.932 4.11692 17.7145 3.38908C14.497 2.66125 10.7372 2.49329 8.7489 2.66125C6.76056 2.82921 4.12149 6.60836 4.12149 9.21178C4.12149 11.8152 6.5075 13.6348 9.07426 14.6425C11.641 15.6503 17.7145 15.3424 18.9798 15.1184C20.2451 14.8945 21.3658 14.7265 22.5588 15.3424Z" fill="#FF5953"/>
+          </svg>
+          <p class="description">My name is Sona Moushigian, a web designer based in the United States. I love to blend design and graphics to create an attractive, intuitive design.</p>
+          <div class="svg-container">
+            <svg class="svg-name-mobile-1" width="47" height="27" viewBox="0 0 47 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.493927 0.88324L46.89 2.46242L46.7355 24.9861L2.07694 26.2707L0.493927 0.88324Z" fill="#FFDB72"/></svg>
+            <svg class="svg-name-mobile-2" width="107" height="27" viewBox="0 0 107 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.347168 0.772949L106.119 2.35213L105.767 24.8758L3.95607 26.1604L0.347168 0.772949Z" fill="#FFDB72"/></svg>
+
+            <svg class="svg-name-highlight" width="147" height="26" viewBox="0 0 147 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.408325 0.0304565L146.144 1.60964L145.658 24.1333L5.38076 25.418L0.408325 0.0304565Z" fill="#FFDB72"/></svg>
+
+            <svg class="svg-job-mobile-1" width="39" height="10" viewBox="0 0 39 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M38.1945 9.8949L0.396873 9.36585L5.42378 0.658994L36.9049 1.38973L38.1945 9.8949Z" fill="#B5EDDD"/></svg>
+            <svg class="svg-job-mobile-2" width="81" height="11" viewBox="0 0 81 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M80.0024 10.8356L0.316818 10.1793L0.582138 0.818632L77.2835 0.284754L80.0024 10.8356Z" fill="#B5EDDD"/></svg>
+
+            <svg class="svg-job-highlight" width="128" height="11" viewBox="0 0 128 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M127.987 10.866L0.384621 10.2097L0.809478 0.848968L123.634 0.315088L127.987 10.866Z" fill="#B5EDDD"/></svg>
+
+            <svg class="svg-adjective-mobile" width="128" height="12" viewBox="0 0 128 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M127.63 11.1991L0.0270462 10.5428L0.451904 1.1821L123.276 0.648218L127.63 11.1991Z" fill="#CAE5FF"/></svg>
+
+            <svg class="svg-adjective-highlight" width="129" height="12" viewBox="0 0 129 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M128.214 11.3923L0.611488 10.736L1.03635 1.37527L123.86 0.841395L128.214 11.3923Z" fill="#CAE5FF"/></svg>
+          </div>
+        </section>
+        <section id="projects" class="project-container main-carousel" data-flickity='{ "draggable": false, "wrapAround": true }'>
+          <article class="featured-project carousel-cell">
+            <img class="first-project-img" src="/" alt="Image of headphones.">
+            <h2>Esse</h2>
+            <p class="casestudy-description">Esse is a cloud based collaboration app for musicians and musical engineers.</p>
+            <button onclick="window.location.href='/featured_project.html'" class="casestudy-button" type="button">View Case Study</button>
+            <svg width="290" height="567" viewBox="0 0 290 527" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0L290 15L279 521.5L29.5 526.5L0.5 0Z" fill="#CAE5FF"/></svg>
+          </article>
+          <article class="secondary-project carousel-cell">
+            <img class="second-project-img" src="/" alt="Image of casette.">
+            <h2>Bloc<br class ="hidden-break"/>Jams</h2>
+            <p class="casestudy-description">Under construction. Please come back later!</p>
+            <button class="casestudy-button" type="button">View Case Study</button>
+            <svg width="257" height="574" viewBox="0 0 257 543" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26 17L225.5 -0.5L257 542.5L0.5 514L26 17Z" fill="#FFDB72"/></svg>
+          </article>
+          <article class="tertiary-project carousel-cell">
+            <img class="third-project-img" src="/" alt="">
+            <h2>TBA</h2>
+            <p class="casestudy-description">Under construction. Please come back later!</p>
+            <button class="casestudy-button" type="button">View Case Study</button>
+            <svg width="290" height="567" viewBox="0 0 290 527" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 0L290 15L279 521.5L29.5 526.5L0.5 0Z" fill="#CAE5FF"/></svg>
+          </article>
+        </section>
+      </main>
+    </div>
     <footer>
       <img class="footer" src="/" alt="Colored background for footer.">
       <ul>
