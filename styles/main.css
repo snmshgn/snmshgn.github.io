@@ -809,6 +809,10 @@ img, p, ul {
     overflow: hidden;
   }
 
+  h2 {
+    font-size:120px;
+  }
+
   h3 {
     font-size: 44px;
   }
@@ -854,6 +858,24 @@ img, p, ul {
 /* Landscape Tablet & Low Res Laptop */
 @media screen and (min-width: 1024px) {
 
+  /* Layout */
+
+  .featured-project > h2 {
+    grid-row:  5;
+  }
+
+  .featured-project > .casestudy-description {
+    grid-row: 6;
+  }
+
+  .featured-project > .casestudy-button {
+    grid-row: 7;
+  }
+
   /* Typography */
+
+  h2 {
+    font-size: 150px;
+  }
 
 }
