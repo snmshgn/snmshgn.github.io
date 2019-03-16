@@ -736,6 +736,10 @@ img, p, ul {
 
   /* Projects */
 
+  .featured-project > .first-project-img {
+    grid-row: 2 / 7;
+  }
+
   .featured-project > svg {
     height: 330px;
   }
