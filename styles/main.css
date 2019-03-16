@@ -743,7 +743,7 @@ img, p, ul {
   .featured-project > h2 {
     grid-row: 3 / 4;
     position: relative;
-    top: 30px;
+    top: 0;
   }
 
   .featured-project > .casestudy-description {
