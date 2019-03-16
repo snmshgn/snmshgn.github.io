@@ -148,6 +148,7 @@ img, p, ul {
     left: -10px;
     position: relative;
     top: 5em;
+    vertical-align: text-top;
     width: 100%;
   }
 
