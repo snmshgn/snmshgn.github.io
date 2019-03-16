@@ -744,12 +744,8 @@ img, p, ul {
     height: 330px;
   }
 
-  .featured-project > .featured-project-img {
-    grid-row: 1 / 5;
-  }
-
   .featured-project > h2 {
-    grid-row: 5;
+    grid-row: 4;
     position: relative;
     top: -50%;
   }
@@ -814,7 +810,7 @@ img, p, ul {
   }
 
   h2 {
-    font-size:120px;
+    font-size: 13vw;
   }
 
   h3 {
