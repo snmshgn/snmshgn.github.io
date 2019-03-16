@@ -751,7 +751,7 @@ img, p, ul {
   .featured-project > h2 {
     grid-row: 5;
     position: relative;
-    top: 0;
+    top: -50%;
   }
 
   .featured-project > .casestudy-description {
