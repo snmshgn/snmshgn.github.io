@@ -476,7 +476,7 @@ img, p, ul {
 
   h1 {
     font-size: 210px;
-    line-height: 151px;
+    line-height: 70%;
   }
 
   h2 {
@@ -855,9 +855,5 @@ img, p, ul {
 @media screen and (min-width: 1024px) {
 
   /* Typography */
-
-  h1 {
-    line-height: 191px;
-  }
 
 }
