@@ -340,6 +340,11 @@ img, p, ul {
 
   /* Projects */
 
+  #projects {
+    position: relative;
+    top: 80vh;
+  }
+
   .projects-container {
     display: grid;
     grid-template-columns: 16px auto 16px;
