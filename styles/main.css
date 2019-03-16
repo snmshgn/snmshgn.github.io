@@ -147,7 +147,7 @@ img, p, ul {
     height: 360px;
     left: -10px;
     position: relative;
-    top: 100px;
+    top: 5em;
     width: 100%;
   }
 
@@ -523,6 +523,15 @@ img, p, ul {
     background-image: url("/../images/mobile/header_designbychange.png");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
   }
 
   /* Carousel */
@@ -638,6 +647,10 @@ img, p, ul {
   .hello {
     margin: -45px 0px;
     transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
   }
 
   .description {
