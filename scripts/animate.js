@@ -17,4 +17,7 @@ $(document).ready(function() {
       }
     });
   });
+
+  var elem = document.getElementByClass('.animated');
+
 });
