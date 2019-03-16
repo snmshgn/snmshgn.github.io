@@ -13,7 +13,7 @@ $(document).ready(function() {
   $(window).scroll(function() {
     $('.scroll-animations .animated').each(function() {
       if (isScrolledIntoView(this) === true) {
-        $(this).addClass('fadeInUp delay-3s');
+        $(this).addClass('fadeInUp');
       }
     });
   });
