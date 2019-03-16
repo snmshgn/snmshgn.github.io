@@ -1,11 +1,11 @@
 $(document).ready(function() {
   // Check if element is scrolled into view
-  function isScrolledIntoView('.animated') {
+  function isScrolledIntoView(elem) {
     var docViewTop = $(window).scrollTop();
     var docViewBottom = docViewTop + $(window).height();
 
-    var elemTop = $('.animated').offset().top;
-    var elemBottom = elemTop + $('.animated').height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
 
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
   }
