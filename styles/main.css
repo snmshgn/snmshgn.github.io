@@ -54,8 +54,9 @@ ul {
 }
 
 footer {
-  width: 100vw;
   text-align: center;
+  width: 100vw;
+  z-index: -4;
 }
 
 footer ul {
