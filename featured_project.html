@@ -21,7 +21,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,900|Playfair+Display:900|Source+Sans+Pro:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.com/libraries/Chart.js"></script>
   </head>
   <body>
     <nav class="sidebar-opacity">
@@ -97,7 +96,7 @@
             <li>And finally, what issues they have with the services they are using.</li>
           </ul>
       </article>
-      <img class="imgsurveys1" src="/" alt="Survey Example"> <!-- Image content needs to be created and added later, probably through CSS -->
+      <canvas id="myChart" class="imgsurveys1" height="400" width="100vw"></canvas>
       <article class = "left surveys-pt2 animated nowHidden">
         <p>Using social media, personal networks and the slack platform, we distributed the survey and got the following results:</p>
           <ul class="primary-ul">
@@ -200,5 +199,27 @@
     <script src="scripts/sidebar.js"></script>
     <script src="scripts/scroll_to.js"></script>
     <script src="scripts/animate.js"></script>
+    <script src="https://cdnjs.com/libraries/Chart.js"></script>
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'bar',
+
+        // The data for our dataset
+        data: {
+          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+          datasets: [{
+              label: 'My First dataset',
+              backgroundColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgb(255, 99, 132)',
+              data: [0, 10, 5, 2, 20, 30, 45]
+            }]
+          },
+
+          // Configuration options go here
+          options: {}
+        });
+    </script>
   </body>
 </html>
