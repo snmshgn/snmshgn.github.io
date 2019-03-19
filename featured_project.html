@@ -45,7 +45,7 @@
     <!-- Not sure how to write the back to top icon and button. Should that be placed in from the JS? -->
     <section class="content-container scroll-animations">
       <img class="headerimg" src="/" alt="Microphone">
-      <header class="animated nowHidden">
+      <header>
         <h2>ESSE</h2>
       </header>
       <article class = "left overview animated nowHidden">
@@ -96,7 +96,7 @@
             <li>And finally, what issues they have with the services they are using.</li>
           </ul>
       </article>
-      <canvas id="myChart" class="imgsurveys1" height="400" width="100vw"></canvas>
+      <canvas id="myChart" class="imgsurveys1"r></canvas>
       <article class = "left surveys-pt2 animated nowHidden">
         <p>Using social media, personal networks and the slack platform, we distributed the survey and got the following results:</p>
           <ul class="primary-ul">
@@ -204,7 +204,7 @@
       var ctx = document.getElementById('myChart').getContext('2d');
       var chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'bar',
+        type: 'line',
 
         // The data for our dataset
         data: {

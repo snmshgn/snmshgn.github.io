@@ -2,21 +2,21 @@
 
   /* Styling */
 
-.backtotop {
+/*.backtotop {
   background-color: transparent;
   border: none;
   display: inline-block;
   position: fixed;
   width: 55px;
-}
+}*/
 
 @media screen and (min-width: 320px) {
 
     /* Layout */
 
-  .backtotop {
+  /*.backtotop {
     display: none;
-  }
+  }*/
 
   .content-container {
     display: inline-grid;
@@ -228,6 +228,14 @@
     grid-row: 36;
   }
 
+  p, ul {
+    padding-bottom: 20px;
+  }
+
+  .secondary-ul {
+    padding-bottom: 0;
+  }
+
   /* Images */
 
   img {
@@ -292,11 +300,11 @@
 
     /* Layout */
 
-  .backtotop {
+  /*.backtotop {
     display: inline-block;
     position: fixed;
     grid-column-start: 8;
-  }
+  }*/
 
   .prototype-button {
     margin: 50px auto 40px auto;
@@ -331,10 +339,6 @@
 
   header > h2 {
     top: 78%;
-  }
-
-  article.right > h3 {
-    margin: 0 0 0 auto;
   }
 
   article > p, ul, .primary-ul {
@@ -525,7 +529,8 @@
   .personas {
     grid-column: 5;
     grid-row: 13;
-    margin: auto;
+    margin: auto 30px;
+    width: 450px;
   }
 
   .personas > h3 {
