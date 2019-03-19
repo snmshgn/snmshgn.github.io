@@ -13,7 +13,8 @@ $(document).ready(function() {
   $(window).scroll(function() {
     $('.scroll-animations .animated').each(function() {
       if (isScrolledIntoView(this) === true) {
-        $(this).addClass('fadeInUp nowVisible');
+        $(this).addClass('fadeInUp');
+        $(this).removeClass('nowHidden');
       }
     });
   });
