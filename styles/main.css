@@ -21,6 +21,14 @@ a {
   text-decoration: none;
 }
 
+.animated {
+  visibility: hidden;
+}
+
+.nowVisible {
+  visibility: visible;
+}
+
 body {
   overflow-x: hidden;
 }
