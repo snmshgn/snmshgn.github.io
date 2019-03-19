@@ -361,7 +361,7 @@
 
   .personas {
     grid-column: 3;
-    margin: auto;
+    margin: auto 10px;
   }
 
   .personas > h3 {
