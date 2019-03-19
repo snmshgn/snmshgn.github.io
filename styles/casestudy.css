@@ -534,6 +534,7 @@
 
   .personas > p {
     margin: auto;
+    width: 450px;
   }
 
   .persona1 {
