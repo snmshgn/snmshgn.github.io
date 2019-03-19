@@ -7,7 +7,7 @@ $(document).ready(function() {
     var elemTop = $(elem).offset().top;
     var elemBottom = elemTop + $(elem).height();
 
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    return ((elemBottom >= docViewBottom) && (elemTop >= docViewTop));
   }
   // If element is scrolled into view, fade it in
   $(window).scroll(function() {
