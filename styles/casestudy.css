@@ -244,57 +244,57 @@
     width: 100vw;
   }
 
-  .headerimg {
+  .imgsurveys1 {
+    grid-column: 1 / 6;
+  }
+
+  .headerimg::after {
     content: url("/../images/mobile/microphone.png");
   }
 
-  .img1 {
+  .img1::after {
     content: url("/../images/mobile/isometric-mobile.png");
   }
 
-  .imgsurveys1 {
-    content: url("/../images/mobile/usersurveys_1.png");
-  }
-
-  .persona1 {
+  .persona1::after {
     content: url("/../images/mobile/persona1.png");
   }
 
-  .persona2 {
+  .persona2::after {
     content: url("/../images/mobile/persona2.png");
   }
 
-  .userflow {
+  .userflow::after {
     content: url("/../images/mobile/userflow.png");
   }
 
-  .sitemap {
+  .sitemap::after {
     content: url("/../images/mobile/sitemap.png");
   }
 
-  .imgsurveys2 {
+  .imgsurveys2::after {
     content: url("/../images/mobile/usersurveys_2.png");
   }
 
-  .wireframes-pt1 {
+  .wireframes-pt1::after {
     content: url("/../images/mobile/wireframing_1.png");
   }
 
-  .wireframes-pt2 {
+  .wireframes-pt2::after {
     content: url("/../images/mobile/wireframing_2.png");
   }
 
-  .imgcolors {
+  .imgcolors::after {
     content: url("/../images/mobile/colors.png");
   }
 
-  .styleguide {
+  .styleguide::after {
     content: url("/../images/mobile/styleguide.png");
   }
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
 
   /* Case Study */
 
@@ -391,51 +391,47 @@
     margin: 50px 0 40px 0;
   }
 
-  .headerimg {
+  .headerimg::after {
     content: url("/../images/desktop/microphone.png");
   }
 
-  .img1 {
+  .img1::after {
     content: url("/../images/desktop/isometric-mobile.png");
   }
 
-  .imgsurveys1 {
-    content: url("/../images/desktop/usersurveys_1.png");
-  }
-
-  .persona1 {
+  .persona1::after {
     content: url("/../images/desktop/persona1.png");
   }
 
-  .persona2 {
+  .persona2::after {
     content: url("/../images/desktop/persona2.png");
   }
 
-  .userflow {
+  .userflow::after {
     content: url("/../images/desktop/userflow.png");
   }
 
-  .sitemap {
+  .sitemap::after {
     content: url("/../images/desktop/sitemap.png");
   }
 
-  .imgsurveys2 {
+  .imgsurveys2::after {
     content: url("/../images/desktop/usersurveys_2.png");
   }
 
-  .wireframes-pt1 {
+  .wireframes-pt1::after {
     content: url("/../images/desktop/wireframing_1.png");
   }
 
-  .wireframes-pt2 {
+  .wireframes-pt2::after {
     content: url("/../images/desktop/wireframing_2.png");
   }
 
-  .imgcolors {
+  .imgcolors::after {
     content: url("/../images/desktop/colors.png");
   }
 
-  .styleguide {
+  .styleguide::after {
     content: url("/../images/desktop/styleguide.png");
   }
 

@@ -727,10 +727,12 @@ img, p, ul {
   #menu > ul {
     grid-column: 2 / 3;
     grid-row: 3;
+    margin-top: 30px;
   }
 
   #menu > #menu-button-close {
     grid-row: 8;
+    margin-top: 30px;
   }
 
   /* Footer */
@@ -819,7 +821,7 @@ img, p, ul {
   }
 
   h2 {
-    font-size: 13vw;
+    font-size: 150px;
   }
 
   h3 {
