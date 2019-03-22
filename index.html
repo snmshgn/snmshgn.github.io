@@ -37,7 +37,7 @@
           <ul>
             <li><h3><a href="/index.html">Home</a></h3></li>
             <li><h3><a href="/about.html">About</a></h3></li>
-            <li><h3><!--Scrolls to projects Projects--><a onclick="smoothScroll(document.getElementById('projects'))">Projects</a></h3></li>
+            <li><h3><!--Scrolls to projects Projects--><a href="#projects">Projects</a></h3></li>
             <li><h3><a href="mailto:snmshgn@aol.com">Contact</a></h3></li>
           </ul>
           <div id="menu-button-close" class="menu-button" style="cursor:pointer" onclick="closeNav()"><svg width="34" height="13" viewBox="0 0 34 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.125 12.5L33.875 12.5V10.5L0.125 10.5L0.125 12.5V12.5ZM0.125 7.5L33.875 7.5V5.5L0.125 5.5L0.125 7.5V7.5ZM0.125 0.5L0.125 2.5L33.875 2.5V0.5L0.125 0.5V0.5Z" fill="#141301"/></svg><p class="menu-button-p">MENU</p></div>
@@ -69,7 +69,12 @@
         </section>
         <section id="projects" class="project-container">
           <article class="featured-project">
-            <img class="first-project-img" src="/" alt="Image of headphones.">
+            <div class="first-project-img">
+	             <picture>
+		              <source media="(max-width: 567px)" srcset="/../images/mobile/headphones.png"/>
+		              <source media="(min-width: 568px)" srcset="/../images/desktop/headphones.png"/>
+	             </picture>
+            </div>
             <h2 class="animated nowHidden">Esse</h2>
             <p class="casestudy-description animated nowHidden">Esse is a cloud based collaboration app for musicians and musical engineers.</p>
             <article class="casestudy-button animated nowHidden"><button onclick="window.location.href='/featured_project.html'" type="button">View Case Study</button></article>
@@ -95,7 +100,12 @@
       </main>
     </div>
     <footer>
-      <img class="footer" src="/" alt="Colored background for footer.">
+      <div class="footer">
+         <picture>
+            <source media="(max-width: 567px)" srcset="/../svg_images/mobile_footer.svg"/>
+            <source media="(min-width: 568px)" srcset="/../svg_images/desktop_footer.svg"/>
+         </picture>
+      </div>
       <ul>
         <li><a href="https://github.com/snmshgn" target="_blank"><i class="fab fa-github-square"></i></a></li>
         <li><a href="https://www.linkedin.com/in/sona-moushigian" target="_blank"><i class="fab fa-linkedin"></i></a></li>
