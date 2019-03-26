@@ -22,7 +22,7 @@ var chart = new Chart(ctx, {
           // This more specific font property overrides the global property
           fontFamily: "'Source Sans Pro', sans-serif",
           fontSize: 16,
-          letterSpacing: '0.05em',
+          fontStyle: 'letter-spacing: 0.05em',
         }
       }
     }
@@ -37,7 +37,7 @@ var chart = new Chart(cty, {
   data: {
     labels: ['Work', 'Hobby', 'School', 'Personal'],
     datasets: [{
-        label: 'What do you primarily use cloud services for?',
+        label: '',
         backgroundColor: ['#E75A46', '#CAE5FF', '#FFDB72', '#B5EDDD'],
         borderColor: 'inherit',
         data: [10, 5, 5, 19],
