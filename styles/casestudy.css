@@ -207,6 +207,7 @@
 
   .colorspt2 {
     grid-row: 31;
+    margin-top: 40px;
   }
 
   .typography {
@@ -347,7 +348,7 @@
   /* Images */
 
   img {
-    margin: 50px 0 40px 0;
+    margin: 50px 0 0 0;
   }
 
   .picture {

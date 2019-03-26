@@ -35,12 +35,12 @@ var chart = new Chart(cty, {
 
   // The data for our dataset
   data: {
-    labels: ['Work', 'Hobby', 'School', 'Personal'],
+    labels: ['Time', 'Scheduling', 'Communication'],
     datasets: [{
-        label: '',
-        backgroundColor: ['#E75A46', '#CAE5FF', '#FFDB72', '#B5EDDD'],
+        label: 'Common Frustrations',
+        backgroundColor: ['#E75A46', '#CAE5FF', '#FFDB72'],
         borderColor: 'inherit',
-        data: [10, 5, 5, 19],
+        data: [3, 3, 2, 0, 3.5],
         borderWidth: 0,
       }]
     },
@@ -52,7 +52,7 @@ var chart = new Chart(cty, {
           // This more specific font property overrides the global property
           fontFamily: "'Source Sans Pro', sans-serif",
           fontSize: 16,
-          letterSpacing: '0.05em',
+          fontStyle: 'letter-spacing: 0.05em',
         }
       }
     }
