@@ -5,7 +5,7 @@
   .content-container {
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-rows: 80px auto auto auto auto auto;
+    grid-template-rows: 5em auto auto auto auto auto;
     margin-bottom: 40px;
   }
 
@@ -17,7 +17,7 @@
   header {
     position: relative;
     margin: 0 auto;
-    top: 395px;
+    top: 89%;
   }
 
   article {
@@ -40,16 +40,6 @@
     grid-row: 6;
   }
 
-  /* Images */
-
-  img{
-    width: 100vw;
-  }
-
-  .about-header-img {
-      content: url("/../images/mobile/selfportrait.png");
-  }
-
   /* Typography */
 
   header > h2 {
@@ -61,13 +51,17 @@
     font-size: 82px;
   }
 
+  .about-header-img {
+    width: 100%;
+  }
+
 }
 
 /* Larger Mobile */
 @media screen and (min-width: 375px) {
 
   header {
-    top: 470px;
+    top: 91%;
   }
 
 }
@@ -76,7 +70,7 @@
 @media screen and (min-width: 400px) {
 
   header {
-    top: 522px;
+    top: 93%;
   }
 
 }
@@ -96,7 +90,7 @@
 
   header {
     grid-column: 2 / 4;
-    top: 278px;
+    top: 85%;
     margin: 0 auto;
   }
 
@@ -146,17 +140,17 @@
 
   .content-container {
     grid-template-columns: 100px auto auto 100px;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: 5em auto auto auto auto auto auto;
   }
 
   .about-header-img {
     grid-column: 2 / 4;
-    grid-row: 1;
+    grid-row: 2;
   }
 
   header {
-    grid-row: 1;
-    top: 300px;
+    grid-row: 2;
+    top: 88%;
   }
 
   article {
@@ -192,7 +186,7 @@
   /* Layout */
 
   header {
-    top: 470px;
+    top: 90%;
   }
 
   /* Typography */

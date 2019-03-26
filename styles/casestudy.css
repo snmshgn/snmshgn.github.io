@@ -27,15 +27,17 @@
   }
 
   header {
+    bottom: 30px;
     grid-column: 1 / 6;
     grid-row: 2;
     margin: 0;
+    position: relative;
   }
 
   .headerimg {
     grid-column: 1 / 6;
     grid-row: 2;
-    margin-top: 0;
+    margin-top: -32px;
     z-index: -1;
   }
 
@@ -236,39 +238,11 @@
 
   /* Images */
 
-  picture {
+  img {
     grid-column: 1 / 6;
     margin-top: 30px;
     max-height: 100%;
     width: 100vw;
-  }
-
-  .userflow::after {
-    content: url("/../images/mobile/userflow.png");
-  }
-
-  .sitemap::after {
-    content: url("/../images/mobile/sitemap.png");
-  }
-
-  .imgsurveys2::after {
-    content: url("/../images/mobile/usersurveys_2.png");
-  }
-
-  .wireframes-pt1::after {
-    content: url("/../images/mobile/wireframing_1.png");
-  }
-
-  .wireframes-pt2::after {
-    content: url("/../images/mobile/wireframing_2.png");
-  }
-
-  .imgcolors::after {
-    content: url("/../images/mobile/colors.png");
-  }
-
-  .styleguide::after {
-    content: url("/../images/mobile/styleguide.png");
   }
 
 }
@@ -298,7 +272,7 @@
   }
 
   .content-container {
-    /* 36 */grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto 100px;
+    /* 36 */grid-template-rows: 5em auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto 100px;
     grid-gap: 10px;
     top: 20px;
   }
@@ -365,53 +339,10 @@
 
   /* Images */
 
-  picture {
+  img {
     grid-column: 2 / 5;
     margin: 50px 0 40px 0;
-  }
-
-  .headerimg::after {
-    content: url("/../images/desktop/microphone.png");
-  }
-
-  .img1::after {
-    content: url("/../images/desktop/isometric-mobile.png");
-  }
-
-  .persona1::after {
-    content: url("/../images/desktop/persona1.png");
-  }
-
-  .persona2::after {
-    content: url("/../images/desktop/persona2.png");
-  }
-
-  .userflow::after {
-    content: url("/../images/desktop/userflow.png");
-  }
-
-  .sitemap::after {
-    content: url("/../images/desktop/sitemap.png");
-  }
-
-  .imgsurveys2::after {
-    content: url("/../images/desktop/usersurveys_2.png");
-  }
-
-  .wireframes-pt1::after {
-    content: url("/../images/desktop/wireframing_1.png");
-  }
-
-  .wireframes-pt2::after {
-    content: url("/../images/desktop/wireframing_2.png");
-  }
-
-  .imgcolors::after {
-    content: url("/../images/desktop/colors.png");
-  }
-
-  .styleguide::after {
-    content: url("/../images/desktop/styleguide.png");
+    width: 100%;
   }
 
   /* Styling */

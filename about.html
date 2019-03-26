@@ -41,22 +41,29 @@
         </div>
       </aside>
     </nav>
-    <section class="content-container ">
-      <img class="about-header-img">
-      <header>
+    <section class="content-container scroll-animations">
+      <div class="about-header-img">
+         <picture>
+            <source media="(max-width: 567px)" srcset="/../images/mobile/selfportrait.png"/>
+            <source media="(min-width: 568px)" srcset="/../images/desktop/selfportrait.png"/>
+            <img src="/../images/desktop/selfportrait.png" alt="Self portrait.">
+         </picture>
+      </div>
+      <header class="animated nowHidden">
         <h2>ABOUT</h2>
       </header>
-      <article class="aboutme-1">
+      <article class="aboutme-1 animated nowHidden">
         <p>Growing up, my mother made a point of exposing me to as much of the arts as possible. My father, due to his age, was able to take me overseas to travel often. These things together made me view the world around me through constructs of design. Art tells a story of a people, architecture tells the story of the empires. These things were important and they were all examples of different types of design. </p>
       </article>
-      <article class="aboutme-hello">
+      <article class="aboutme-hello animated nowHidden">
         <h3>HELLO.</h3>
       </article>
-      <article class="aboutme-2">
+      <article class="aboutme-2 animated nowHidden">
         <p>As I grew older, the internet became a more prevalent thing in daily life and the makeup of websites, the interactivity of programs became another center point of my life. And as the internet grew, so did it’s design and so did I. I watched the trends appear, watched websites transform and evolve with branding and intuitive design. It became so important to how we interacted with the web, just like how we interacted with the world around us. Design can be used to make the world more intuitive, to bridge gaps in knowledge and allow for better access to information.</p>
       </article>
     </section>
     <script src="scripts/sidebar.js"></script>
     <script src="scripts/scroll_to.js"></script>
+    <script src="scripts/animate.js"></script>
   </body>
 </html>
