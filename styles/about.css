@@ -12,9 +12,6 @@
   .about-header-img, header {
     grid-column: 1 / 4;
     grid-row: 2;
-  }
-
-  header > h2 {
     margin: 0 auto;
   }
 
@@ -90,7 +87,6 @@
 
   header > h2 {
     grid-column: 2 / 4;
-    margin: 0 auto;
   }
 
   article {
