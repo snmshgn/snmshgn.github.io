@@ -99,10 +99,14 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-h3 {
+h3, h4 {
   font-family: 'Playfair Display SC', serif;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 picture, p, ul {

@@ -74,6 +74,26 @@
     margin: 10px 0;
   }
 
+  h4 {
+    margin: 10px 0;
+  }
+
+  .bolded {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .smallerfont {
+    font-size: 14px;
+  }
+
+  .firstgroup {
+    text-align: center;
+  }
+
   .content-container > article > h3 {
     margin-bottom: 20px;
     margin-top: 30px;
@@ -137,12 +157,16 @@
     grid-row: 14;
   }
 
-  .persona1 {
+  .firstpersona {
     grid-row: 13;
   }
 
-  .persona2 {
+  .secondpersona {
     grid-row: 15;
+  }
+
+  .persona1, .persona2 {
+    margin: 0 auto;
   }
 
   .stories {
@@ -227,8 +251,12 @@
     grid-row: 35;
   }
 
-  .conclusion {
+  .wireframes-pt3 {
     grid-row: 36;
+  }
+
+  .conclusion {
+    grid-row: 37;
   }
 
   p, ul {
@@ -248,6 +276,10 @@
 
   .picture {
     grid-column: 1 / 6;
+  }
+
+  .persona1, .persona2 {
+    width: 140px;
   }
 
 }
@@ -339,18 +371,14 @@
     margin: auto;
   }
 
-  .persona1 {
-    grid-column: 2 / 5;
-  }
-
-  .persona2 {
-    grid-column: 2 / 5;
-  }
-
   /* Images */
 
   img {
     margin: 50px 0 0 0;
+  }
+
+  .picture {
+    grid-column: 2 / 5;
   }
 
   /* Styling */
@@ -441,32 +469,55 @@
   }
 
   .personas {
-    grid-column: 5;
-    grid-row: 13;
+    grid-row: 14;
     margin: auto 30px;
-    width: 450px;
   }
 
   .personas > h3 {
-    margin: auto;
+    margin: 0;
   }
 
   .personas > p {
-    margin: auto;
-    width: 450px;
+    margin: 0;
   }
 
-  .persona1 {
-    grid-column: 2 / 5;
+  /*.persona1 {
+    grid-column: 3;
     grid-row: 13;
     margin-right: 10px;
   }
 
+  .persona1-info {
+    grid-column: 2 / 4;
+    grid-row: 14;
+  }
+
+  .persona1-info > h4 {
+    text-align: center;
+  }
+
+  .persona1-info > p {
+    width: 350px;
+  }
+
   .persona2 {
-    grid-column: 6 / 9;
-    grid-row: 13;
+    grid-column: 6;
+    grid-row: 16;
     margin-left: 10px;
   }
+
+  .persona2-info {
+    grid-column: 5 / 8;
+    grid-row: 17;
+  }
+
+  .persona2-info > h4 {
+    text-align: center;
+  }
+
+  .persona2-info > p {
+    width: 350px;
+  }*/
 
   .userflow {
     grid-column: 2 / 9;
@@ -481,6 +532,10 @@
   }
 
   .wireframes-pt2 {
+    grid-column: 2 / 9;
+  }
+
+  .wireframes-pt3 {
     grid-column: 2 / 9;
   }
 
