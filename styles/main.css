@@ -10,6 +10,15 @@ a, .hello {
   color: #FF5953;
 }
 
+b {
+  font-weight: 700;
+  color: #83AA9F;
+}
+
+i {
+  font-style: italic;
+}
+
 h2 {
   color: #FF5953;
 }
