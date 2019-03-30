@@ -27,6 +27,10 @@ footer > ul > li > a {
   color: #FFFFFF;
 }
 
+.onPage {
+  color: #83AA9F;
+}
+
   /* Styling */
 
 a {
@@ -127,6 +131,16 @@ picture, p, ul {
 
 .menu-button-p {
   font-size: 9px;
+}
+
+/* Animation */
+
+nav > li:hover {
+  -webkit-transform: rotateX(-20deg);
+  -o-transform: rotateX(-20deg);
+  -moz-transform: rotateX(-20deg);
+  -ms-transform: rotateX(-20deg);
+  transform: rotateX(-20deg);
 }
 
 /* Projects Carousel
@@ -283,13 +297,13 @@ picture, p, ul {
   }
 
   #menu {
-    background-color: white;
-    height: 0;
+    background-color: hsla(0, 0%, 100%, 0.97);
+    height: 580px;
     overflow-x: hidden;
     position: fixed;
     top: -20px;
     transition: .3s;
-    visibility: hidden;
+    transform: translateY(-580px);
     width: 100vw;
     z-index: 2;
   }
@@ -484,10 +498,6 @@ picture, p, ul {
     grid-row: 8 / 9;
     margin: auto;
   }
-
-  .backtotop {
-    display: none;
-  }*/
 
   /* Styling */
 

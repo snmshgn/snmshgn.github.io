@@ -1,9 +1,9 @@
 function openNav() {
-      document.getElementById("menu").style.height = "580px";
-      document.getElementById("menu").style.visibility = "visible";
+      document.getElementById("menu").style.transform = "translateY(0px)";
+      document.getElementById("menu-button").style.visibility = "hidden";
 }
 
 function closeNav() {
-      document.getElementById("menu").style.height = "0";
-      document.getElementById("menu").style.visibility = "hidden";
+      document.getElementById("menu").style.transform = "translateY(-580px)";
+      document.getElementById("menu-button").style.visibility = "visible";
 }
