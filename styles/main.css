@@ -109,6 +109,10 @@ button, .menu-button-p {
   font-size: 9px;
 }
 
+.fab {
+  font-weight: 100;
+}
+
 footer > ul {
   font-size: 1.5em;
 }
