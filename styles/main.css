@@ -776,7 +776,7 @@ picture, p, ul {
 
   footer > ul {
     bottom: 10px;
-    right: -240px;
+    right: -40%;
   }
 
   footer > ul > li {
@@ -928,13 +928,17 @@ picture, p, ul {
 
   footer > ul {
     bottom: 40px;
-    right: -600px;
+    right: -50%;
   }
 
   .featured-project > h2 {
     grid-row:  5;
     position: relative;
     top: -50%;
+  }
+
+  .featured-project > svg {
+    height: 430px;
   }
 
   .featured-project > .casestudy-description {
@@ -944,6 +948,14 @@ picture, p, ul {
   .featured-project > .casestudy-button {
     grid-row: 7;
   }
+
+  /*.secondary-project > svg {
+    height: 430px;
+  }
+
+  .tertiary-project > svg {
+    height: 430px;
+  }*/
 
 }
 
