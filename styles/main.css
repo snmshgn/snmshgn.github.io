@@ -87,7 +87,7 @@ footer {
 footer ul {
   display: inline-flex;
   list-style: none;
-  width: 100vw;
+  width: 90vw;
 }
 
 footer > ul > li {
@@ -775,8 +775,8 @@ picture, p, ul {
   }
 
   footer > ul {
-    bottom: 10px;
-    right: -40%;
+    bottom: 20px;
+    right: -31%;
   }
 
   footer > ul > li {
@@ -928,7 +928,7 @@ picture, p, ul {
 
   footer > ul {
     bottom: 40px;
-    right: -50%;
+    right: -37%;
   }
 
   .featured-project > h2 {
