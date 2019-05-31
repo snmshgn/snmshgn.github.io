@@ -145,34 +145,36 @@ picture, p, ul {
   font-size: 9px;
 }
 
-/* Projects Carousel
+/*Projects Carousel*/
 
 .carousel-cell {
-  width: 100%;  full width
+  width: 100%;
   margin-right: 10px;
 }
 
 .flickity-button {
   background: transparent;
 }
-/* big previous & next buttons
+
+/* big previous & next buttons */
 .flickity-prev-next-button {
   width: 100px;
   height: 100px;
 }
-/* icon color
+
+/* icon color */
 .flickity-button-icon {
-  fill: white;
+  fill: transparent;
 }
-/* hide disabled button
+/* hide disabled button */
 .flickity-button:disabled {
   display: none;
 }
 
-/* position dots up a bit
+/* position dots up a bit */
 .flickity-page-dots {
-  bottom: 30px;
-} */
+  bottom: 0px;
+}
 
 /* Mobile */
 @media screen and (min-width: 320px) {
@@ -442,7 +444,7 @@ picture, p, ul {
     margin: auto;
   }
 
-  /*.secondary-project > h2, .casestudy-description, .casestudy-button {
+  .secondary-project > h2, .casestudy-description, .casestudy-button {
     grid-column: 2;
     position: relative;
     top: -80px;
@@ -474,7 +476,7 @@ picture, p, ul {
     margin: auto;
   }
 
-  .tertiary-project > h2, .casestudy-description, .casestudy-button {
+  /*.tertiary-project > h2, .casestudy-description, .casestudy-button {
     grid-column: 2;
     position: relative;
     top: -80px;
@@ -504,7 +506,7 @@ picture, p, ul {
   .tertiary-project > .casestudy-button {
     grid-row: 8 / 9;
     margin: auto;
-  }
+  }*/
 
   /* Styling */
 
@@ -550,11 +552,6 @@ picture, p, ul {
     width: 100%;
   }
 
-  /*.second-project-img {
-    content: url("/../images/mobile/cassette.png");
-    z-index: -1;
-  }*/
-
   .header-container > h1 {
     background-image: url("/../images/mobile/header_designbychange.png");
     -webkit-background-clip: text;
@@ -572,12 +569,12 @@ picture, p, ul {
 
   /* Carousel */
 
-  /*.flickity-enabled {
+  .flickity-enabled {
     margin: 0 auto;
     margin-bottom: 50px;
     top: 300px;
     width: 100vw;
-  }*/
+  }
 
 }
 
@@ -619,9 +616,9 @@ picture, p, ul {
     top: -20px;
   }
 
-  .tertiary-project > h2, .casestudy-description {
+  /*.tertiary-project > h2, .casestudy-description {
     top: -20px;
-  }
+  }*/
 
   .flickity-page-dots {
     bottom: -20px;
@@ -651,9 +648,9 @@ picture, p, ul {
     top: -10px;
   }
 
-  .tertiary-project > .casestudy-description {
+  /*.tertiary-project > .casestudy-description {
     top: -10px;
-  }
+  }*/
 
   .featured-project > h2, .casestudy-description {
     top: 14px;
@@ -663,9 +660,9 @@ picture, p, ul {
     top: 14px;
   }
 
-  .tertiary-project > h2, .casestudy-description {
+  /*.tertiary-project > h2, .casestudy-description {
     top: 14px;
-  }
+  }*/
 
   .secondary-project > h2 {
     top: 60px;
@@ -824,7 +821,7 @@ picture, p, ul {
     grid-row: 6;
   }
 
-  /*.secondary-project > h2, .casestudy-description, .casestudy-button {
+  .secondary-project > h2, .casestudy-description, .casestudy-button {
     top: -20px;
   }
 
@@ -846,7 +843,7 @@ picture, p, ul {
     grid-row: 6;
   }
 
-  .tertiary-project > svg {
+  /*.tertiary-project > svg {
     height: 330px;
   }
 
@@ -875,8 +872,12 @@ picture, p, ul {
     overflow: hidden;
   }
 
+  #menu > h2 {
+    font-size: 6em;
+  }
+
   h2 {
-    font-size: 9em;
+    font-size: 8em;
   }
 
   h3 {
@@ -893,23 +894,19 @@ picture, p, ul {
     width: 100%;
   }
 
-  /*.second-project-img {
-    content: url("/../images/desktop/cassette.png");
-  }*/
-
   .header-container > h1 {
     background-image: url("/../images/desktop/header_designbychange.png");
   }
 
   /* Carousel */
 
-  /*.flickity-enabled {
+  .flickity-enabled {
     width: 98vw;
   }
 
   .flickity-page-dots {
-    bottom: 30px;
-  }*/
+    bottom: 0px;
+  }
 
 }
 
@@ -938,7 +935,7 @@ picture, p, ul {
   }
 
   .featured-project > svg {
-    height: 430px;
+    height: 480px;
   }
 
   .featured-project > .casestudy-description {
@@ -949,11 +946,11 @@ picture, p, ul {
     grid-row: 7;
   }
 
-  /*.secondary-project > svg {
-    height: 430px;
+  .secondary-project > svg {
+    height: 480px;
   }
 
-  .tertiary-project > svg {
+  /*.tertiary-project > svg {
     height: 430px;
   }*/
 
@@ -983,6 +980,22 @@ picture, p, ul {
   }
 
   .featured-project > .casestudy-button {
+    grid-row: 8;
+    top: -50px;
+  }
+
+  .secondary-project > h2 {
+    grid-row: 6;
+    position: relative;
+    top: -130px;
+  }
+
+  .secondary-project > .casestudy-description {
+    grid-row: 7;
+    top: -80px;
+  }
+
+  .secondary-project > .casestudy-button {
     grid-row: 8;
     top: -50px;
   }

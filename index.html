@@ -69,8 +69,8 @@
             <svg class="svg-adjective-highlight" width="129" height="12" viewBox="0 0 129 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M128.214 11.3923L0.611488 10.736L1.03635 1.37527L123.86 0.841395L128.214 11.3923Z" fill="#CAE5FF"/></svg>
           </div>
         </section>
-        <section id="projects" class="project-container">
-          <article class="featured-project">
+        <section id="projects" class="project-container carousel" data-flickity>
+          <article class="featured-project carousel-cell">
             <div class="first-project-img">
 	             <picture>
 		              <source media="(max-width: 567px)" srcset="/../images/mobile/headphones.png"/>
@@ -85,10 +85,16 @@
               <path d="M0 0L289.5 15L278.5 521.5L29 526.5L0 0Z" fill="#CAE5FF"/>
             </svg>
           </article>
-          <article class="secondary-project">
-            <img class="second-project-img" src="/" alt="Image of casette.">
-            <h2>Bloc<br class ="hidden-break"/>Jams</h2>
-            <p class="casestudy-description">Under construction. Please come back later!</p>
+          <article class="secondary-project carousel-cell">
+            <div class="second-project-img">
+	             <picture>
+		              <source media="(max-width: 567px)" srcset="/../images/mobile/cassette.png"/>
+		              <source media="(min-width: 568px)" srcset="/../images/desktop/cassette.png"/>
+                  <img src="/../images/desktop/headphones.png" alt="Image of headphones.">
+	             </picture>
+            </div>
+            <h2>Thematic</h2>
+            <p class="casestudy-description">Thematic is a mobile app built to </p>
             <article class="casestudy-button animated nowHidden"><button onclick="window.location.href='/secondary_project.html'" type="button">View Case Study</button></article>
             <svg width="257" height="574" viewBox="0 0 257 543" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M26 17L225.5 -0.5L257 542.5L0.5 514L26 17Z" fill="#FFDB72"/></svg>
           </article>
@@ -122,6 +128,6 @@
     <script src="scripts/scroll_to.js"></script>
     <script src="scripts/scrollanimation.js"></script>
     <script src="scripts/bounce_links.js"></script>
-    <!--<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>-->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
