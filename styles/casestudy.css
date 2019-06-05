@@ -165,7 +165,7 @@
     grid-row: 15;
   }
 
-  .persona1, .persona2 {
+  .persona1, .persona2, .persona3 {
     margin: 0 auto;
   }
 
@@ -286,7 +286,7 @@
     grid-column: 1 / 6;
   }
 
-  .persona1, .persona2 {
+  .persona1, .persona2, .persona3 {
     width: 140px;
   }
 
@@ -301,6 +301,13 @@
     content: url("/../svg_images/greenbgbox.svg");
     position: absolute;
     margin: 100px 0 0 10px;
+    z-index: -1;
+  }
+
+  .thirdpersona:before {
+    content: url("/../svg_images/yellowbgbox.svg");
+    position: absolute;
+    margin: 60px 0 0 40px;
     z-index: -1;
   }
 

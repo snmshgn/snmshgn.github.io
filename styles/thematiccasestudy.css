@@ -1,0 +1,76 @@
+@media screen and (min-width: 320px) {
+
+  /* Layout */
+
+  .personas {
+    grid-row: 13;
+  }
+
+  .firstpersona {
+    grid-row: 14;
+  }
+
+  .secondpersona {
+    padding-top: 50px;
+  }
+
+  .thirdpersona {
+    grid-row: 16;
+    padding-top: 70px;
+  }
+
+  .stories {
+    grid-row: 17;
+  }
+
+  .userflow {
+    grid-row: 18;
+  }
+
+  .flows {
+    grid-row: 19;
+  }
+
+  .sitemap {
+    grid-row: 20;
+  }
+
+  .wireframes1 {
+    grid-row: 21;
+  }
+
+  .wireframes-pt1 {
+    grid-row: 22;
+  }
+
+  .surveys-rd2 {
+    grid-row: 23;
+  }
+
+  .imgsurveys2 {
+    grid-row: 24;
+  }
+
+  .comp-analysis2 {
+    grid-row: 25;
+  }
+
+  .wireframes2 {
+    grid-row: 26;
+  }
+
+  .wireframes-pt2 {
+    grid-row: 27;
+  }
+
+  .prototyping {
+    grid-row: 28;
+  }
+
+  /* Typography */
+
+  h2 {
+    font-size: 17vw;
+  }
+
+}

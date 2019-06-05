@@ -808,7 +808,7 @@ picture, p, ul {
     grid-column: 2 / 5;
     grid-row: 4;
     position: relative;
-    top: -50%;
+    top: -70%;
   }
 
   .featured-project > .casestudy-description {
@@ -877,7 +877,7 @@ picture, p, ul {
   }
 
   h2 {
-    font-size: 8em;
+    font-size: 7em;
   }
 
   h3 {
@@ -905,7 +905,7 @@ picture, p, ul {
   }
 
   .flickity-page-dots {
-    bottom: 0px;
+    bottom: 90px;
   }
 
 }
@@ -953,6 +953,10 @@ picture, p, ul {
   /*.tertiary-project > svg {
     height: 430px;
   }*/
+
+  .flickity-page-dots {
+    bottom: 0px;
+  }
 
 }
 
