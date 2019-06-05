@@ -436,18 +436,13 @@ picture, p, ul {
     grid-row: 7;
     position: relative;
     margin: auto;
+    top: -90px;
     width: 300px;
   }
 
   .featured-project > .casestudy-button {
     grid-row: 8 / 9;
     margin: auto;
-  }
-
-  .secondary-project > h2, .casestudy-description, .casestudy-button {
-    grid-column: 2;
-    position: relative;
-    top: -80px;
   }
 
   .secondary-project > svg {
@@ -459,8 +454,14 @@ picture, p, ul {
     z-index: -2;
   }
 
+  .secondary-project > h2, .casestudy-description, .casestudy-button {
+    grid-column: 2;
+    position: relative;
+    top: -80px;
+  }
+
   .secondary-project > h2 {
-    grid-row: 5;
+    grid-row: 6;
     margin: auto;
   }
 
@@ -468,6 +469,7 @@ picture, p, ul {
     grid-row: 7;
     position: relative;
     margin: auto;
+    top: -90px;
     width: 300px;
   }
 
@@ -524,6 +526,10 @@ picture, p, ul {
   h2 {
     font-size: 98px;
     line-height: 72px;
+  }
+
+  .secondary-project > h2 {
+    font-size: 16vw;
   }
 
   #menu > ul {
@@ -612,8 +618,16 @@ picture, p, ul {
     top: -20px;
   }
 
+  .featured-project > .casestudy-description {
+    top: -30px;
+  }
+
   .secondary-project > h2, .casestudy-description {
     top: -20px;
+  }
+
+  .secondary-project > .casestudy-description {
+    top: -30px;
   }
 
   /*.tertiary-project > h2, .casestudy-description {
