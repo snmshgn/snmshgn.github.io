@@ -57,3 +57,33 @@ var chart = new Chart(cty, {
       }
     }
   });
+
+  var ctx = document.getElementById('myChart3');
+  var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'doughnut',
+
+    // The data for our dataset
+    data: {
+      labels: ['Work', 'Hobby', 'School', 'Personal'],
+      datasets: [{
+          label: 'Cloud Storage Usage',
+          backgroundColor: ['#E75A46', '#CAE5FF', '#FFDB72', '#B5EDDD'],
+          borderColor: 'inherit',
+          data: [10, 5, 5, 19],
+          borderWidth: 0,
+        }]
+      },
+
+      // Configuration options go here
+      options: {
+        legend: {
+          labels: {
+            // This more specific font property overrides the global property
+            fontFamily: "'Source Sans Pro', sans-serif",
+            fontSize: 16,
+            fontStyle: 'letter-spacing: 0.05em',
+          }
+        }
+      }
+    });
