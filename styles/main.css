@@ -528,6 +528,10 @@ picture, p, ul {
     line-height: 72px;
   }
 
+  .featured-project > h2 {
+    font-size: 78px;
+  }
+
   .secondary-project > h2 {
     font-size: 16vw;
   }
@@ -890,8 +894,12 @@ picture, p, ul {
     font-size: 6em;
   }
 
-  h2 {
-    font-size: 7em;
+  .featured-project > h2 {
+    font-size: 8em;
+  }
+
+  .secondary-project > h2 {
+    font-size: 8em;
   }
 
   h3 {
@@ -989,7 +997,7 @@ picture, p, ul {
   .featured-project > h2 {
     grid-row: 6;
     position: relative;
-    top: -130px;
+    top: -140px;
   }
 
   .featured-project > .casestudy-description {
@@ -1005,7 +1013,7 @@ picture, p, ul {
   .secondary-project > h2 {
     grid-row: 6;
     position: relative;
-    top: -130px;
+    top: -140px;
   }
 
   .secondary-project > .casestudy-description {
