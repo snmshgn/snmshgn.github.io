@@ -24,54 +24,78 @@
     grid-row: 17;
   }
 
-  .userflow {
+  .userstories {
     grid-row: 18;
   }
 
-  .flows {
+  .userflow {
     grid-row: 19;
   }
 
-  .sitemap {
+  .flows {
     grid-row: 20;
   }
 
-  .wireframes1 {
+  .sitemap {
     grid-row: 21;
   }
 
-  .wireframes-pt1 {
+  .wireframes1 {
     grid-row: 22;
   }
 
-  .surveys-rd2 {
+  .wireframes-pt1 {
     grid-row: 23;
   }
 
-  .imgsurveys2 {
+  .surveys-rd2 {
     grid-row: 24;
   }
 
-  .comp-analysis2 {
+  .imgsurveys2 {
     grid-row: 25;
   }
 
-  .wireframes2 {
+  .comp-analysis2 {
     grid-row: 26;
   }
 
-  .wireframes-pt2 {
+  .wireframes2 {
     grid-row: 27;
   }
 
-  .prototyping {
+  .wireframes-pt2 {
     grid-row: 28;
+  }
+
+  .prototyping {
+    grid-row: 29;
+  }
+
+  .table {
+    grid-column: 2 / 5;
   }
 
   /* Typography */
 
   h2 {
     font-size: 17vw;
+  }
+
+}
+
+@media screen and (min-width: 568px) {
+
+  .firstpersona:before {
+    margin: 60px 0 0 250px;
+  }
+
+  .secondpersona:before {
+    margin: 80px 0 0 220px;
+  }
+
+  .table {
+    grid-column: 4 / 6;
   }
 
 }
