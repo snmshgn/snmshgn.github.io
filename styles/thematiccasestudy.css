@@ -134,4 +134,12 @@
     margin: 80px 0 0 220px;
   }
 
+  .thirdpersona:before {
+    margin: 60px 0 0 250px;
+  }
+
+  header > h2 {
+    font-size: 150px;
+  }
+
 }
