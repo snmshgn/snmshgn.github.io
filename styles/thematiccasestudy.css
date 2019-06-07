@@ -84,7 +84,47 @@
 
 }
 
+@media screen and (min-width: 400px) {
+
+  .firstpersona:before {
+    margin: 60px 0 0 17%;
+  }
+
+  .secondpersona:before {
+    margin: 100px 0 0 10%;
+  }
+
+  .thirdpersona:before {
+    margin: 60px 0 0 17%;
+  }
+
+}
+
 @media screen and (min-width: 568px) {
+
+  .firstpersona:before {
+    margin: 60px 0 0 170px;
+  }
+
+  .secondpersona:before {
+    margin: 80px 0 0 150px;
+  }
+
+  .thirdpersona:before {
+    margin: 60px 0 0 170px;
+  }
+
+  .table {
+    grid-column: 4 / 6;
+  }
+
+  header > h2 {
+    font-size: 17vw;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
 
   .firstpersona:before {
     margin: 60px 0 0 250px;
@@ -92,10 +132,6 @@
 
   .secondpersona:before {
     margin: 80px 0 0 220px;
-  }
-
-  .table {
-    grid-column: 4 / 6;
   }
 
 }
