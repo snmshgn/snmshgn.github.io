@@ -68,7 +68,6 @@
   .design-mockups {
     grid-row: 28;
     margin-bottom: 30px;
-    margin-top: -30px;
   }
 
   .wireframes2 {
@@ -79,8 +78,16 @@
     grid-row: 30;
   }
 
-  .typography2 {
+  .brand-img {
     grid-row: 31;
+  }
+
+  .typography2 {
+    grid-row: 32;
+  }
+
+  .type-img {
+    grid-row: 33;
   }
 
   .table {
@@ -113,6 +120,14 @@
 
 @media screen and (min-width: 568px) {
 
+  .picture {
+    margin-top: -30px;
+  }
+
+  .type-img {
+    margin-bottom: -90px;
+  }
+
   .firstpersona:before {
     margin: 60px 0 0 170px;
   }
@@ -136,6 +151,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .type-img {
+    margin-bottom: 0px;
+  }
 
   .firstpersona:before {
     margin: 60px 0 0 250px;
