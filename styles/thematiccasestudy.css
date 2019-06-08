@@ -46,30 +46,41 @@
 
   .wireframes-pt1 {
     grid-row: 23;
+    margin-bottom: 30px;
   }
 
   .surveys-rd2 {
     grid-row: 24;
   }
 
-  .imgsurveys2 {
+  .wireframes-pt2 {
     grid-row: 25;
   }
 
-  .comp-analysis2 {
+  .imgsurveys2 {
     grid-row: 26;
   }
 
-  .wireframes2 {
+  .comp-analysis2 {
     grid-row: 27;
   }
 
-  .wireframes-pt2 {
+  .design-mockups {
     grid-row: 28;
+    margin-bottom: 30px;
+    margin-top: -30px;
+  }
+
+  .wireframes2 {
+    grid-row: 29;
   }
 
   .prototyping {
-    grid-row: 29;
+    grid-row: 30;
+  }
+
+  .typography2 {
+    grid-row: 31;
   }
 
   .table {
