@@ -478,7 +478,7 @@ picture, p, ul, .table {
     margin: auto;
   }
 
-  /*.tertiary-project > h2, .casestudy-description, .casestudy-button {
+  .tertiary-project > h2, .casestudy-description, .casestudy-button {
     grid-column: 2;
     position: relative;
     top: -80px;
@@ -508,7 +508,7 @@ picture, p, ul, .table {
   .tertiary-project > .casestudy-button {
     grid-row: 8 / 9;
     margin: auto;
-  }*/
+  }
 
   /* Styling */
 
@@ -533,6 +533,10 @@ picture, p, ul, .table {
   }
 
   .secondary-project > h2 {
+    font-size: 15vw;
+  }
+
+  .tertiary-project > h2 {
     font-size: 15vw;
   }
 
@@ -634,9 +638,9 @@ picture, p, ul, .table {
     top: -30px;
   }
 
-  /*.tertiary-project > h2, .casestudy-description {
+  .tertiary-project > h2, .casestudy-description {
     top: -20px;
-  }*/
+  }
 
   .flickity-page-dots {
     bottom: -20px;
@@ -659,16 +663,16 @@ picture, p, ul, .table {
   }
 
   .featured-project > .casestudy-description {
-    top: -10px;
+    top: -30px;
   }
 
   .secondary-project > .casestudy-description {
-    top: -10px;
+    top: -30px;
   }
 
-  /*.tertiary-project > .casestudy-description {
-    top: -10px;
-  }*/
+  .tertiary-project > .casestudy-description {
+    top: -30px;
+  }
 
   .featured-project > h2, .casestudy-description {
     top: 14px;
@@ -678,15 +682,19 @@ picture, p, ul, .table {
     top: 14px;
   }
 
-  /*.tertiary-project > h2, .casestudy-description {
+  .tertiary-project > h2, .casestudy-description {
     top: 14px;
-  }*/
+  }
 
   .featured-project > h2 {
     top: -10px;
   }
 
   .secondary-project > h2 {
+    top: -10px;
+  }
+
+  .tertiary-project > h2 {
     top: -10px;
   }
 
@@ -869,7 +877,7 @@ picture, p, ul, .table {
     grid-row: 6;
   }
 
-  /*.tertiary-project > svg {
+  .tertiary-project > svg {
     height: 330px;
   }
 
@@ -881,11 +889,12 @@ picture, p, ul, .table {
 
   .tertiary-project > .casestudy-description {
     grid-row: 5;
+    width: 400px;
   }
 
   .tertiary-project > .casestudy-button {
     grid-row: 6;
-  }*/
+  }
 
   /* Typography */
 
@@ -950,6 +959,10 @@ picture, p, ul, .table {
     font-size: 9em;
   }
 
+  .tertiary-project > h2 {
+    font-size: 9em;
+  }
+
 }
 
 /* Landscape Tablet & Low Res Laptop */
@@ -1004,9 +1017,22 @@ picture, p, ul, .table {
     grid-row: 7;
   }
 
-  /*.tertiary-project > svg {
-    height: 430px;
-  }*/
+  .tertiary-project > h2 {
+    grid-row:  5;
+    top: -80%;
+  }
+
+  .tertiary-project > svg {
+    height: 460px;
+  }
+
+  .tertiary-project > .casestudy-description {
+    grid-row: 6;
+  }
+
+  .tertiary-project > .casestudy-button {
+    grid-row: 7;
+  }
 
   .flickity-page-dots {
     bottom: 0px;
@@ -1054,6 +1080,22 @@ picture, p, ul, .table {
   }
 
   .secondary-project > .casestudy-button {
+    grid-row: 8;
+    top: -50px;
+  }
+
+  .tertiary-project > h2 {
+    grid-row: 6;
+    position: relative;
+    top: -140px;
+  }
+
+  .tertiary-project > .casestudy-description {
+    grid-row: 7;
+    top: -80px;
+  }
+
+  .tertiary-project > .casestudy-button {
     grid-row: 8;
     top: -50px;
   }
