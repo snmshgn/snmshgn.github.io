@@ -383,6 +383,11 @@ picture, p, ul, .table {
     position: relative;
   }
 
+  .footer > picture > img {
+    position: relative;
+    bottom: -10px;
+  }
+
   /* Projects */
 
   #projects {
@@ -813,6 +818,11 @@ picture, p, ul, .table {
   .footer {
     position: relative;
     bottom: -40px;
+  }
+
+  .footer > picture > img {
+    position: relative;
+    bottom: -5px;
   }
 
   /* Projects */
